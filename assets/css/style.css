@@ -1,0 +1,87 @@
+footer{
+	background: #666666;
+	width: 960px;
+}
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: #4aaaa5;
+	color: white;
+	border: 1px solid #cccccc;
+	float:left;
+}
+h2{
+	color: #4aaaa5;
+	padding-left: 10px;
+}
+
+hr{
+	width: 95%;
+}
+img{
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+#git{
+	float: left;
+}
+#linked{
+	float: left;
+}
+#stack{
+	float: left;
+}
+p{
+	color:#777777;
+}
+
+.section-content{
+	width:960px;
+	background:grey;
+	overflow:auto;
+}
+.header{
+	background: #ffffff;
+	position: relative;
+	width: 960px;
+	overflow: auto;
+}
+.nav{
+	float: right;
+	font-size: 10px;
+	background: grey;
+}
+.portfolio-img{
+	width:100px;
+	height:150px;
+}
+.content{
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	width: 650px;
+	float: left;
+	margin: 10px auto;
+}
+.icons{
+	width: 33.3%;
+}
+.sidebar{
+	width: 270px;
+	margin: 10px auto;
+	float: right;
+	background: #ffffff;
+}
+
+label{
+
+}
+input{
+
+}
+textarea{
+
+}
+button{
+
+}
