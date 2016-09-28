@@ -1,98 +1,124 @@
-
-
-/* My styles below */
-a{ 
-	color: grey; 
-	text-decoration: none;
-}
-
-footer{
-	background: #666666;
+	/*Header Section*/
+header {
+	background: #ffffff;
+	position: relative;
 	width: 960px;
+	height: 50px
+	border-bottom: 1px solid #cccccc;
+	padding: 0px;
+	margin: 0px;
 }
-h1{
+h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background: #4aaaa5;
 	color: white;
 	border: 1px solid #cccccc;
 	float:left;
-	width: 130px;
-	height: 40px;
+	width: 200px;
+	height: 48px;
 	text-align: center;
-	padding-top: 10px;
-
+	margin: 10px 0 0 0;
+	padding-top: 8px;
 }
-
-h2{
-	color: #4aaaa5;
-	padding-left: 10px;
-}
-
-hr{
-	width: 95%;
-}
-img{
-	width: 50px;
-	height: 50px;
-	padding: 5px;
-
-}
-
-
-}
-p{
-	color:#777777;
-	float: right;
-}
-
-.section-content{
-	width:960px;
-	background:grey;
-	overflow:auto;
-}
-.header{
-	background: #ffffff;
-	position: relative;
-	width: 960px;
-	overflow: auto;
-}
-.nav{
+nav {
 	float: right;
 	font-size: 20px;
+	background: #ffffff;
+	width: 200px;
+	height: 48px;
+	text-align: center;
+	margin: 10px auto;
+	padding-top: 10px;
+	padding-right: 10px;
 }
-.portfolio-img{
-	width:100px;
-	height:150px;
+a { 
+	color: gray; 
+	text-decoration: none;
 }
-.content{
+
+	/*Context Section*/
+.context {
+	width: 960px;
+	background: gray;
+	overflow: auto;
+	clear: both;
+}
+.body-content {
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	width: 650px;
 	float: left;
-	margin: 10px auto;
+	margin: 10px 10px;
+	overflow: auto;
 }
-.icons{
-	width: 33.3%;
-	float: left;
+h2 {
+	color: #4aaaa5;
+	text-indent: 1em;
 
-	display: inline-block;
 }
-.sidebar{
+.connect {
+	color: #4aaaa5;
+	text-align: center;
+}
+.portfolio-img {
+	width: 100px;
+	height: 150px;
+	padding: 10px;
+	margin: 0 auto;
+	float: left;
+}
+aside {
 	width: 270px;
-	margin: 10px auto;
+	margin: 10px 10px;
 	float: right;
 	background: #ffffff;
+	overflow: auto;
+}
+#giticon, #linkedicon, #stackicon {
+	margin: 0 15px;
+	float: left;
+	padding: 5px;
+	position: relative;
+	width: 50px;
+	height: 50px;
 }
 
-label{
+	/*Footer Section*/
+footer {
+	background: #666666;
+	width: 960px;
+	height: 50px;
+	border-top: 5px solid #4aaaa5;
+	text-align: center;
+	padding-top: 20px;
+	color: #efefef;
 
 }
-input{
+
+
+	/*MISC */
+hr {
+	width: 95%;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+p {
+	float: left;
+	color:#777777;
+	display: inline-block;
+}
+
+label {
 
 }
-textarea{
+input {
 
 }
-button{
+textarea {
+
+}
+button {
 
 }
