@@ -1,3 +1,11 @@
+
+
+/* My styles below */
+a{ 
+	color: grey; 
+	text-decoration: none;
+}
+
 footer{
 	background: #666666;
 	width: 960px;
@@ -8,7 +16,13 @@ h1{
 	color: white;
 	border: 1px solid #cccccc;
 	float:left;
+	width: 130px;
+	height: 40px;
+	text-align: center;
+	padding-top: 10px;
+
 }
+
 h2{
 	color: #4aaaa5;
 	padding-left: 10px;
@@ -21,19 +35,14 @@ img{
 	width: 50px;
 	height: 50px;
 	padding: 5px;
+
 }
 
-#git{
-	float: left;
-}
-#linked{
-	float: left;
-}
-#stack{
-	float: left;
+
 }
 p{
 	color:#777777;
+	float: right;
 }
 
 .section-content{
@@ -49,8 +58,7 @@ p{
 }
 .nav{
 	float: right;
-	font-size: 10px;
-	background: grey;
+	font-size: 20px;
 }
 .portfolio-img{
 	width:100px;
@@ -65,6 +73,9 @@ p{
 }
 .icons{
 	width: 33.3%;
+	float: left;
+
+	display: inline-block;
 }
 .sidebar{
 	width: 270px;
