@@ -45,7 +45,7 @@ a {
 	margin: 0 auto;
 	overflow: auto;
 	clear: both;
-	background: lightgrey;
+	background: url(assets/images/greyfloral.png);
 	min-height: 100%;
 }
 .box{
