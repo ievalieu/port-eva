@@ -63,11 +63,6 @@ h2 {
 	color: #4aaaa5;
 	text-indent: 1em;
 }
-.connect {
-	color: #4aaaa5;
-	text-indent: 0em;
-	text-align: center;
-}
 .portfolio-img {
 	padding: 20px;
 	margin: 0 auto;
@@ -79,6 +74,11 @@ aside {
 	background: #ffffff;
 	overflow: auto;
 	border: 1px solid #dddddd;
+}
+.connect {
+	color: #4aaaa5;
+	text-indent: 0em;
+	text-align: center;
 }
 #giticon, #linkedicon, #stackicon {
 	margin: 0 15px;
@@ -100,8 +100,70 @@ footer {
 	color: #efefef;
 }
 
+	/*Contact Page*/
+textarea {
+	width: 300px;
+	height: 150px;
+}
 
-	/*MISC */
+.box-labels {
+	padding: 10px 50px 25px;
+}
+
+	/*Portfolio Page*/
+
+.portfolio-links {
+	padding-top: 13px;
+	font-weight: bold;
+	font-size: 25px;
+	background: #4aaaa5;
+	color: white;
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	display: inline-block;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+#hangman{
+	position: absolute;
+	top: 180px;
+	left: 30px;
+	z-index: +50;
+}
+
+#rpg{
+	position: absolute;
+	top: 180px;
+	right: 60px;
+	z-index: +50;
+}
+#trivia{
+	position: absolute;
+	top: 450px;
+	left: 30px;
+	z-index: +50;
+}
+#rutgers{
+	position: absolute;
+	top: 450px;
+	right: 60px;
+	z-index: +50;
+}
+#rock{
+	position: absolute;
+	top: 720px;
+	left: 30px;
+	z-index: +50;
+}
+.a,.b,.c,.d,.e{
+	position: relative;
+	background: pink;
+	z-index: 0;
+}
+
+	/*All*/
 hr {
 	width: 95%;
 }
@@ -109,6 +171,7 @@ img {
 	width: 250px;
 	height: 250px;
 	margin: 10px 30px;
+	float: left;
 }
 p {
 	font-size: 20px;
@@ -117,38 +180,5 @@ p {
 	color:#777777;
 	padding: 15px;
 	line-height: 25px;
-	word-spacing: 3px;
+	word-spacing: 2px;
 }
-
-textarea {
-	width: 300px;
-	height: 150px;
-}
-
-.box-labels {
-	padding: 10px 50px 25px;
-
-}
-
-.portfolio-links {
-	padding: 5px;
-	font-size: 30px;
-	background: #4aaaa5;
-	color: white;
-	display: inline;
-	width: 250px;
-	height: 50px;
-	text-align: center;
-	position: absolute;
-	left: ;
-}
-
-#hangman {
-	position: absolute;
-	left: 50px;
-	top: 50px;
-}
-#rpg
-#trivia
-#rutgers
-#rock
