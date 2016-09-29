@@ -40,24 +40,28 @@ a {
 
 	/*Context Section*/
 .context {
-	width: 960px;
-	background-image: url("assets/images/greyfloral.png"); 
+	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 	overflow: auto;
 	clear: both;
+	background: lightgrey;
+}
+.box{
+	width: 960px;
+	overflow: auto;
+	margin: 25px auto;
 }
 .body-content {
 	background: #ffffff;
 	border: 1px solid #dddddd;
 	width: 650px;
 	float: left;
-	margin: 10px 10px;
 	overflow: auto;
 }
 h2 {
 	color: #4aaaa5;
 	text-indent: 1em;
-
 }
 .connect {
 	color: #4aaaa5;
@@ -71,10 +75,10 @@ h2 {
 }
 aside {
 	width: 270px;
-	margin: 10px 10px 0px 0px;
 	float: right;
 	background: #ffffff;
 	overflow: auto;
+	border: 1px solid #dddddd;
 }
 #giticon, #linkedicon, #stackicon {
 	margin: 0 15px;
@@ -94,7 +98,6 @@ footer {
 	text-align: center;
 	padding-top: 20px;
 	color: #efefef;
-
 }
 
 
@@ -114,16 +117,17 @@ p {
 	color:#777777;
 	padding: 15px;
 	line-height: 25px;
+	word-spacing: 3px;
 }
 
 textarea {
-	width: 350px;
+	width: 300px;
 	height: 150px;
 }
 
-.box {
-	float: left;
-	padding: 40px;
+.box-labels {
+	padding: 10px 50px 25px;
+
 }
 
 .portfolio-links {
