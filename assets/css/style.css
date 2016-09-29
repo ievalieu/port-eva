@@ -45,7 +45,9 @@ a {
 	margin: 0 auto;
 	overflow: auto;
 	clear: both;
-	background-image: url('assets/images/greyfloral.png');
+	
+		/* Background-image code not working. WHY?!*/
+	background-image: url("assets/images/greyfloral/greyfloral.png");
 	min-height: 100%;
 }
 .box{
