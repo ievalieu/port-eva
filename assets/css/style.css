@@ -46,6 +46,7 @@ a {
 	overflow: auto;
 	clear: both;
 	background: lightgrey;
+	min-height: 100%;
 }
 .box{
 	width: 960px;
