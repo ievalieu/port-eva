@@ -46,9 +46,9 @@ a {
 	overflow: auto;
 	clear: both;
 		/* Background-image code not working. WHY?!*/
-	background-image: url("assets/images/greyfloral/greyfloral.png");
+	background-image: url("../images/greyfloral/greyfloral.png");
 		/* Adding because bkgd image not working */
-	background: lightgrey;
+
 	min-height: 100%;
 }
 .box{
@@ -163,7 +163,7 @@ textarea {
 }
 .a,.b,.c,.d,.e{
 	position: relative;
-	background: pink;
+	background: #ffffff;
 	z-index: 0;
 }
 
