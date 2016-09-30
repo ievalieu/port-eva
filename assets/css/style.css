@@ -45,10 +45,7 @@ a {
 	margin: 0 auto;
 	overflow: auto;
 	clear: both;
-		/* Background-image code not working. WHY?!*/
 	background-image: url("../images/greyfloral/greyfloral.png");
-		/* Adding because bkgd image not working */
-
 	min-height: 100%;
 }
 .box{
