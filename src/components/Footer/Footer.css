@@ -1,18 +1,9 @@
 /*Footer*/
 #footer {
-	background: #613a43;
-/*	#e9dccd
-	#613a43
-	#849974*/
+	height: 50px;
+	background: none;
 }
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-main {
-	flex: 1 0 auto;
-}
+
 .parallax-container {
     height: 70%;
 }

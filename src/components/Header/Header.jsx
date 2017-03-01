@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import {Link} from "react-router";
-import logo from "./logo.png";
+//import logo from "./logo.png";
 
 export default () => {
 	const brandStyle = {
@@ -12,7 +12,7 @@ export default () => {
 			<nav role="navigation" className="z-depth-5">
 				<div className="nav-wrapper container">
 					<Link to="/" className="brand-logo" style={brandStyle}>
-						<img src="{logo}" alt="logo" className="App-logo"/>
+						{/*<img src="{logo}" alt="logo" className="App-logo"/>*/}
 						<span id="eva">EVA</span>
 						<span id="lieu"> LIEU</span>
 					</Link>
@@ -20,7 +20,7 @@ export default () => {
 						<li><Link to="/contact">Contact</Link></li>
 					</ul>
 					<ul className="right hide-on-med-and-down">
-						<li><Link to="/blog">Blog</Link></li>
+						<li><Link to="/resume">Resume</Link></li>
 					</ul>
 					<ul className="right hide-on-med-and-down">
 						<li><Link to="/portfolio">Portfolio</Link></li>

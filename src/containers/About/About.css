@@ -1,12 +1,9 @@
 /*Card*/
-.card {
+.about-card {
 	height: 400px;
-	margin: 70px 0px;
+	margin: 100px 0px;
 	float: left;
 	display: block;
-}
-.card-image {
-	width: 400px;
-	height: 100%;
-	background: black;
+	background: white;
+	padding: 25px 25px;
 }

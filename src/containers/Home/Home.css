@@ -1,12 +1,15 @@
 /*Card*/
-.card {
-	height: 400px;
-	margin: 70px 0px;
-	float: left;
+.home-card {
+	height: 350px;
+	margin: 100px 0px;
 	display: block;
 }
-.card-image {
-	width: 400px;
-	height: 100%;
-	background: black;
+
+h4 {
+	text-align: center;
+	font-size: 4em
+}
+h1 {
+	text-align: center;
+	font-size: 5em;
 }

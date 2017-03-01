@@ -1,14 +1,16 @@
 /*Navbar*/
 nav {
-	background: #36384c;
+	background: rgba(55,55,55,0.5);
 }
 #eva {
 	color: white;
 	font-weight: 300;
+	opacity: 1.0;
 }
 #lieu {
 	color: #e3bab3;	
 	font-weight: 300;
+	opacity: 1.0;
 }
 
 .App-logo {

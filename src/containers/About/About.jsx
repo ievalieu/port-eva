@@ -7,10 +7,8 @@ class About extends React.Component {
 			<main>
 				<div className="row container">
 					<div className="col l12">
-						<div className="card horizontal z-depth-3">
-							<div className="card-image">
-								<img src="#"/>
-							</div>
+						<div className="about-card horizontal z-depth-3">
+						<div className="img-eva"></div>
 							<div className="card-stacked">
 								<div className="card-content">
 									<h4>About Me</h4>
