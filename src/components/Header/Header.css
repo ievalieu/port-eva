@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Navbar*/
 nav {
 	background: rgba(55,55,55,0.5);
@@ -22,3 +23,27 @@ nav {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+=======
+/*Navbar*/
+nav {
+	background: #36384c;
+}
+#eva {
+	color: white;
+	font-weight: 300;
+}
+#lieu {
+	color: #e3bab3;	
+	font-weight: 300;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+>>>>>>> 2ed716a9767afa7bce4de636ad515aa1c99cbf13

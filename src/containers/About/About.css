@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Card*/
 .about-card {
 	height: 400px;
@@ -6,4 +7,17 @@
 	display: block;
 	background: white;
 	padding: 25px 25px;
+=======
+/*Card*/
+.card {
+	height: 400px;
+	margin: 70px 0px;
+	float: left;
+	display: block;
+}
+.card-image {
+	width: 400px;
+	height: 100%;
+	background: black;
+>>>>>>> 2ed716a9767afa7bce4de636ad515aa1c99cbf13
 }
