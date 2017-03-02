@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 /*Card*/
 .home-card {
 	height: 350px;
 	margin: 100px 0px;
 	display: block;
 }
-
 h4 {
 	text-align: center;
 	font-size: 4em
@@ -13,17 +11,4 @@ h4 {
 h1 {
 	text-align: center;
 	font-size: 5em;
-=======
-/*Card*/
-.card {
-	height: 400px;
-	margin: 70px 0px;
-	float: left;
-	display: block;
-}
-.card-image {
-	width: 400px;
-	height: 100%;
-	background: black;
->>>>>>> 2ed716a9767afa7bce4de636ad515aa1c99cbf13
 }
