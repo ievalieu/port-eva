@@ -3,7 +3,7 @@
 // var React = require('react');
 
 var express = require("express");
-//var bodyParser = require("body-parser");
+var bodyParser = require("body-parser");
 //var expressValidator = require('express-validator');
 //var cookieParser = require("cookie-parser");
 //var flash = require("connect-flash");
