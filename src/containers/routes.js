@@ -15,4 +15,4 @@ export default () => {
 			<Route path="/portfolio" component={Portfolio} />
 		</Route>
 	);
-}
+};
