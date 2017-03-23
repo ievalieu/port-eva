@@ -75,7 +75,7 @@
 		(0, _routes2.default)()
 	);
 	
-	_reactDom2.default.render(APP_ENTRY, document.getElementById('root'));
+	_reactDom2.default.render(APP_ENTRY, document.querySelector('#root'));
 
 /***/ },
 /* 2 */

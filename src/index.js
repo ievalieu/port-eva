@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, browserHistory } from "react-router";
-import makeRoutes from "./containers/routes";
+import makeRoutes from "./containers/routes.js";
 
 const APP_ENTRY = (
 	<Router history={ browserHistory }>
