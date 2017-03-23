@@ -11,5 +11,5 @@ const APP_ENTRY = (
 
 ReactDOM.render(
   APP_ENTRY,
-  document.getElementById('root')
+  document.querySelector('#root')
 );

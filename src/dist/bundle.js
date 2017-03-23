@@ -70,9 +70,9 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var APP_ENTRY = _react2.default.createElement(
-	  _reactRouter.Router,
-	  { history: _reactRouter.browserHistory },
-	  (0, _routes2.default)()
+		_reactRouter.Router,
+		{ history: _reactRouter.browserHistory },
+		(0, _routes2.default)()
 	);
 	
 	_reactDom2.default.render(APP_ENTRY, document.getElementById('root'));
