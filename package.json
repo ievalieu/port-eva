@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-router": "^3.0.2",
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.23.0",
@@ -12,15 +19,8 @@
     "style-loader": "^0.15.0",
     "webpack": "^1.13.2"
   },
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
-  },
   "scripts": {
-    "start": "webpack && node server.js",
+    "start": "node server.js",
     "build": "webpack -w"
   }
 }
