@@ -26,8 +26,7 @@ module.exports = {
                 use: [ 
                     { loader: "style-loader" }, 
                     { loader: "css-loader" }
-                ],
-                include: path.join(__dirname, 'public')
+                ]
             },
             {
                 test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,

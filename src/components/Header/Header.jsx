@@ -1,7 +1,6 @@
 import React from "react";
-//import "./Header.css";
+import "../../styles/header.css";
 import {Link} from "react-router";
-//import logo from "./logo.png";
 
 export default () => {
 	const brandStyle = {

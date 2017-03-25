@@ -1,5 +1,5 @@
 import React from "react";
-//import "./Portfolio.css";
+import "../../portfolio.css";
 
 class About extends React.Component {
 	render() {
