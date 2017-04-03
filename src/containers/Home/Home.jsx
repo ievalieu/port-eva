@@ -5,16 +5,20 @@ class Home extends React.Component {
 	render() {
 		return (
 			<main>
-				<div className="row container">
-					<div className="col l2 m2 s2"></div>
-					<div className="col l8 m8 s8">
-						<div className="home-card">
-							<h4>Hello, I'm</h4> 
-							<h1>EVA LIEU</h1>
-							<h4>I'm a web developer.</h4>	
-						</div>
+				<div className="row home">
+					<div className="col s12 m12 l12 z-depth-5">
+						<div class="row">
+                			<div class="col l1 m2 s2"></div>
+                			<div class="col l10 m8 s8">
+			                    <div class="home-card">
+			                        <h2>Hello world, I'm</h2><br/>
+			                        <h1>EVA LIEU</h1>
+			                        <h2>I'm a web developer.</h2>   
+			                    </div>
+		                	</div>
+		                	<div class="col l1 m2 s2"></div>
+           				</div>
 					</div>
-					<div className="col l2 m2 s2"></div>
 				</div>
     		</main>
 		);

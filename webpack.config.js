@@ -18,22 +18,16 @@ module.exports = {
                 test: /\.jsx?$/,
                 loaders: ['babel-loader'],
                 include: path.join(__dirname, 'src')
-            }
-        ],
-        rules: [
+            },
             {
                 test: /\.css$/,
-                use: [ 
-                    { loader: "style-loader" }, 
-                    { loader: "css-loader" }
-                ]
+                loader: ["style-loader", "css-loader"],
+                include: path.join(__dirname, '/styles')
+                
             },
             {
                 test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-                loader: 'url-loader',
-                options: {
-                    limit: 10000
-                }
+                loader: ["url-loader"]
             }
         ]
     }

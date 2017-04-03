@@ -26575,15 +26575,15 @@
 	
 	var _App2 = _interopRequireDefault(_App);
 	
-	var _Home = __webpack_require__(238);
+	var _Home = __webpack_require__(240);
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
-	var _About = __webpack_require__(239);
+	var _About = __webpack_require__(241);
 	
 	var _About2 = _interopRequireDefault(_About);
 	
-	var _Portfolio = __webpack_require__(240);
+	var _Portfolio = __webpack_require__(243);
 	
 	var _Portfolio2 = _interopRequireDefault(_Portfolio);
 	
@@ -26619,7 +26619,7 @@
 	
 	var _Header2 = _interopRequireDefault(_Header);
 	
-	var _Footer = __webpack_require__(237);
+	var _Footer = __webpack_require__(238);
 	
 	var _Footer2 = _interopRequireDefault(_Footer);
 	
@@ -26630,9 +26630,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	//import logo from './logo.svg';
-	//import './App.css';
-	
 	
 	var App = function (_Component) {
 		_inherits(App, _Component);
@@ -26675,11 +26672,11 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../styles/header.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	
 	var _reactRouter = __webpack_require__(179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	//import logo from "./logo.png";
 	
 	exports.default = function () {
 		var brandStyle = {
@@ -26764,10 +26761,10 @@
 			)
 		);
 	};
-	//import "./Header.css";
 
 /***/ },
-/* 237 */
+/* 237 */,
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26796,12 +26793,15 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../styles/footer.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	
 	var _reactRouter = __webpack_require__(179);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ },
-/* 238 */
+/* 239 */,
+/* 240 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26843,32 +26843,41 @@
 					null,
 					_react2.default.createElement(
 						"div",
-						{ className: "row container" },
-						_react2.default.createElement("div", { className: "col l2 m2 s2" }),
+						{ className: "row home" },
 						_react2.default.createElement(
 							"div",
-							{ className: "col l8 m8 s8" },
+							{ className: "col s12 m12 l12 z-depth-5" },
 							_react2.default.createElement(
 								"div",
-								{ className: "home-card" },
+								{ "class": "row" },
+								_react2.default.createElement("div", { "class": "col l1 m2 s2" }),
 								_react2.default.createElement(
-									"h4",
-									null,
-									"Hello, I'm"
+									"div",
+									{ "class": "col l10 m8 s8" },
+									_react2.default.createElement(
+										"div",
+										{ "class": "home-card" },
+										_react2.default.createElement(
+											"h2",
+											null,
+											"Hello world, I'm"
+										),
+										_react2.default.createElement("br", null),
+										_react2.default.createElement(
+											"h1",
+											null,
+											"EVA LIEU"
+										),
+										_react2.default.createElement(
+											"h2",
+											null,
+											"I'm a web developer."
+										)
+									)
 								),
-								_react2.default.createElement(
-									"h1",
-									null,
-									"EVA LIEU"
-								),
-								_react2.default.createElement(
-									"h4",
-									null,
-									"I'm a web developer."
-								)
+								_react2.default.createElement("div", { "class": "col l1 m2 s2" })
 							)
-						),
-						_react2.default.createElement("div", { className: "col l2 m2 s2" })
+						)
 					)
 				);
 			}
@@ -26880,7 +26889,7 @@
 	exports.default = Home;
 
 /***/ },
-/* 239 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -26895,6 +26904,8 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../styles/about.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -26902,8 +26913,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	//import "./About.css";
 	
 	var About = function (_React$Component) {
 		_inherits(About, _React$Component);
@@ -26925,44 +26934,131 @@
 						{ className: "row container" },
 						_react2.default.createElement(
 							"div",
-							{ className: "col l12" },
+							{ className: "col s12 m12 l12" },
+							_react2.default.createElement(
+								"h1",
+								{ className: "header center" },
+								"ABOUT ME"
+							)
+						)
+					),
+					_react2.default.createElement(
+						"div",
+						{ className: "row" },
+						_react2.default.createElement(
+							"div",
+							{ className: "col s12 m12 l12 about z-depth-5" },
 							_react2.default.createElement(
 								"div",
-								{ className: "about-card horizontal z-depth-3" },
-								_react2.default.createElement("div", { className: "img-eva" }),
+								{ className: "row" },
+								_react2.default.createElement("div", { className: "col m2 l2" }),
 								_react2.default.createElement(
 									"div",
-									{ className: "card-stacked" },
+									{ className: "col s12 m8 l8" },
 									_react2.default.createElement(
 										"div",
-										{ className: "card-content" },
+										{ className: "card" },
 										_react2.default.createElement(
-											"h4",
-											null,
-											"About Me"
+											"div",
+											{ className: "card-content" },
+											_react2.default.createElement("img", { src: "#" }),
+											_react2.default.createElement(
+												"span",
+												{ className: "content" },
+												_react2.default.createElement(
+													"p",
+													null,
+													"I am a recent UCLA graduate with a degree in English and a minor in Labor and Workplace Studies. Currently, I am enrolled in the Coding Boot Camp at UCLA Extension for Full-Stack Web Development."
+												),
+												_react2.default.createElement("br", null),
+												_react2.default.createElement(
+													"p",
+													null,
+													"I\u2019m enamored with the art of storytelling using data, tech, and good ol\u2019 fashioned words. I aim for constant growth and I seek a company interested in creating applications that can spread knowledge in an entertaining and innovative way. Passions include: labor rights, books, tech, travel, and tea."
+												)
+											)
 										),
 										_react2.default.createElement(
-											"p",
-											null,
-											"I am a recent UCLA graduate with a degree in English and a minor in Labor and Workplace Studies. Currently, I am enrolled in the Coding Boot Camp at UCLA Extension for Full-Stack Web Development."
-										),
-										_react2.default.createElement("br", null),
-										_react2.default.createElement(
-											"p",
-											null,
-											"I\u2019m enamored with the art of storytelling using data, tech, and good ol\u2019 fashioned words. I aim for constant growth and I seek a company interested in creating applications that can spread knowledge in an entertaining and innovative way. Passions include: labor rights, books, tech, travel, and tea."
-										)
-									),
-									_react2.default.createElement(
-										"div",
-										{ className: "card-action" },
-										_react2.default.createElement(
-											"a",
-											{ href: "#" },
-											"This is a link"
+											"div",
+											{ className: "card-action" },
+											_react2.default.createElement(
+												"div",
+												{ className: "row" },
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"HTML5"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"CSS3"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"JavaScript"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"jQuery"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"React.js"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"MongoDB"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"Mongoose"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"MySQL"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"Heroku"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"Materialize"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"Bootstrap"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"Express.js"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"Node.js"
+												),
+												_react2.default.createElement(
+													"div",
+													{ className: "chip" },
+													"APIs"
+												)
+											)
 										)
 									)
-								)
+								),
+								_react2.default.createElement("div", { className: "col m2 l2" })
 							)
 						)
 					)
@@ -26976,13 +27072,14 @@
 	exports.default = About;
 
 /***/ },
-/* 240 */
+/* 242 */,
+/* 243 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
-		value: true
+	    value: true
 	});
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -26990,6 +27087,8 @@
 	var _react = __webpack_require__(2);
 	
 	var _react2 = _interopRequireDefault(_react);
+	
+	__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../styles/portfolio.css\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -26999,128 +27098,255 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	//import "./Portfolio.css";
-	
 	var About = function (_React$Component) {
-		_inherits(About, _React$Component);
+	    _inherits(About, _React$Component);
 	
-		function About() {
-			_classCallCheck(this, About);
+	    function About() {
+	        _classCallCheck(this, About);
 	
-			return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
-		}
+	        return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
+	    }
 	
-		_createClass(About, [{
-			key: "render",
-			value: function render() {
-				return _react2.default.createElement(
-					"main",
-					null,
-					_react2.default.createElement(
-						"div",
-						{ className: "container" },
-						_react2.default.createElement(
-							"div",
-							{ className: "row portfolio-header" },
-							_react2.default.createElement(
-								"h2",
-								null,
-								"PORTFOLIO"
-							),
-							_react2.default.createElement(
-								"h3",
-								null,
-								_react2.default.createElement(
-									"span",
-									{ className: "project-title" },
-									"All Projects"
-								),
-								_react2.default.createElement(
-									"span",
-									{ className: "project-title" },
-									"Front-End"
-								),
-								_react2.default.createElement(
-									"span",
-									null,
-									"Full-Stack"
-								)
-							)
-						),
-						_react2.default.createElement(
-							"div",
-							{ className: "row" },
-							_react2.default.createElement(
-								"div",
-								{ className: "col l12" },
-								_react2.default.createElement(
-									"div",
-									{ className: "card sticky-action z-depth-3" },
-									_react2.default.createElement(
-										"div",
-										{ className: "card-image waves-effect waves-block waves-light" },
-										_react2.default.createElement("img", { className: "activator", src: "images/office.jpg" })
-									),
-									_react2.default.createElement(
-										"div",
-										{ className: "card-content" },
-										_react2.default.createElement(
-											"span",
-											{ className: "card-title activator grey-text text-darken-4" },
-											"CODESPIRATION",
-											_react2.default.createElement(
-												"i",
-												{ className: "material-icons right" },
-												"more_vert"
-											)
-										),
-										_react2.default.createElement(
-											"p",
-											null,
-											_react2.default.createElement(
-												"a",
-												{ href: "#" },
-												"This is a link"
-											)
-										)
-									),
-									_react2.default.createElement(
-										"div",
-										{ className: "card-action" },
-										_react2.default.createElement(
-											"a",
-											{ href: "#" },
-											"This is a link"
-										)
-									),
-									_react2.default.createElement(
-										"div",
-										{ className: "card-reveal" },
-										_react2.default.createElement(
-											"span",
-											{ className: "card-title grey-text text-darken-4" },
-											"Card Title",
-											_react2.default.createElement(
-												"i",
-												{ className: "material-icons right" },
-												"close"
-											)
-										),
-										_react2.default.createElement(
-											"p",
-											null,
-											"Here is some more information about this product that is only revealed once clicked on."
-										)
-									)
-								)
-							)
-						)
-					)
-				);
-			}
-		}]);
+	    _createClass(About, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "main",
+	                null,
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "row container" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col s12 m12 l12" },
+	                        _react2.default.createElement(
+	                            "h1",
+	                            { className: "header center" },
+	                            "PORTFOLIO"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "div",
+	                    { className: "row" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "col s12 m12 l12 portfolio z-depth-5" },
+	                        _react2.default.createElement(
+	                            "div",
+	                            { className: "row container" },
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col s12 m6 l4" },
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "card sticky-action" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-image waves-effect waves-block waves-light" },
+	                                        _react2.default.createElement("img", { className: "activator", src: "./assets/images/codespiration.jpg" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-action" },
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "card-title activator grey-text text-darken-4" },
+	                                            "Codespiration",
+	                                            _react2.default.createElement(
+	                                                "i",
+	                                                { className: "material-icons right" },
+	                                                "more_vert"
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "row" },
+	                                            _react2.default.createElement(
+	                                                "p",
+	                                                { className: "left" },
+	                                                _react2.default.createElement(
+	                                                    "a",
+	                                                    { href: "https://immense-brook-88728.herokuapp.com" },
+	                                                    "Live Demo"
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                "p",
+	                                                { className: "right" },
+	                                                _react2.default.createElement(
+	                                                    "a",
+	                                                    { href: "https://github.com/itsevalieu/codespiration" },
+	                                                    "Github"
+	                                                )
+	                                            )
+	                                        )
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-reveal" },
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "card-title grey-text text-darken-4" },
+	                                            "Codespiration",
+	                                            _react2.default.createElement(
+	                                                "i",
+	                                                { className: "material-icons right" },
+	                                                "close"
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "Idea generator application for coding exercises. Promotes community-building and geared towards newbie programmers."
+	                                        )
+	                                    )
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col s12 m6 l4" },
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "card sticky-action" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-image waves-effect waves-block waves-light" },
+	                                        _react2.default.createElement("img", { className: "activator", src: "./assets/images/jukebox.jpg" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-action" },
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "card-title activator grey-text text-darken-4" },
+	                                            "Jukebox App",
+	                                            _react2.default.createElement(
+	                                                "i",
+	                                                { className: "material-icons right" },
+	                                                "more_vert"
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "row" },
+	                                            _react2.default.createElement(
+	                                                "p",
+	                                                { className: "left" },
+	                                                _react2.default.createElement(
+	                                                    "a",
+	                                                    { href: "https://project1spotify.herokuapp.com" },
+	                                                    "Live Demo"
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                "p",
+	                                                { className: "right" },
+	                                                _react2.default.createElement(
+	                                                    "a",
+	                                                    { href: "https://github.com/itsevalieu/jukebox" },
+	                                                    "Github"
+	                                                )
+	                                            )
+	                                        )
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-reveal" },
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "card-title grey-text text-darken-4" },
+	                                            "Jukebox App",
+	                                            _react2.default.createElement(
+	                                                "i",
+	                                                { className: "material-icons right" },
+	                                                "close"
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "Community playlist application with chatbox."
+	                                        )
+	                                    )
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "col s12 m6 l4" },
+	                                _react2.default.createElement(
+	                                    "div",
+	                                    { className: "card sticky-action" },
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-image waves-effect waves-block waves-light" },
+	                                        _react2.default.createElement("img", { className: "activator", src: "./assets/images/garment.jpg" })
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-action" },
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "card-title activator grey-text text-darken-4" },
+	                                            "Train Scheduler",
+	                                            _react2.default.createElement(
+	                                                "i",
+	                                                { className: "material-icons right" },
+	                                                "more_vert"
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "row" },
+	                                            _react2.default.createElement(
+	                                                "p",
+	                                                { className: "left" },
+	                                                _react2.default.createElement(
+	                                                    "a",
+	                                                    { className: "link", href: "#" },
+	                                                    "Live Demo"
+	                                                )
+	                                            ),
+	                                            _react2.default.createElement(
+	                                                "p",
+	                                                { className: "right" },
+	                                                _react2.default.createElement(
+	                                                    "a",
+	                                                    { className: "link", href: "#" },
+	                                                    "Github"
+	                                                )
+	                                            )
+	                                        )
+	                                    ),
+	                                    _react2.default.createElement(
+	                                        "div",
+	                                        { className: "card-reveal" },
+	                                        _react2.default.createElement(
+	                                            "span",
+	                                            { className: "card-title grey-text text-darken-4" },
+	                                            "Garment Worker Center Site",
+	                                            _react2.default.createElement(
+	                                                "i",
+	                                                { className: "material-icons right" },
+	                                                "close"
+	                                            )
+	                                        ),
+	                                        _react2.default.createElement(
+	                                            "p",
+	                                            null,
+	                                            "Nonprofit website for Garment Worker Center."
+	                                        )
+	                                    )
+	                                )
+	                            )
+	                        )
+	                    )
+	                )
+	            );
+	        }
+	    }]);
 	
-		return About;
+	    return About;
 	}(_react2.default.Component);
 	
 	exports.default = About;
