@@ -21,13 +21,13 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: ["style-loader", "css-loader"],
-                include: path.join(__dirname, '/styles')
+                loaders: ["style-loader", "css-loader"],
+                include: path.join(__dirname, '/src/styles')
                 
             },
             {
                 test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-                loader: ["url-loader"]
+                loaders: ["url-loader"]
             }
         ]
     }
