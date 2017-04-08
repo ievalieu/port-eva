@@ -15,6 +15,8 @@ export default () => {
 			<Route path="/about" component={About} />
 			<Route path="/portfolio" component={Portfolio} />
 			<Route path="/contact" component={Contact} />
+			<Route path="/resume" />
+
 		</Route>
 	);
 };

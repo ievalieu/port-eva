@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/header.css";
+import "../../styles/navbar.css";
 import {Link} from "react-router";
 
 export default () => {
@@ -7,28 +7,20 @@ export default () => {
 		fontFamily: "Lato"
 	};
 	return (
-		<header>
-			<nav role="navigation" className="z-depth-5">
-				<div className="nav-wrapper container">
-					<Link to="/" className="brand-logo" style={brandStyle}>
-						{/*<img src="{logo}" alt="logo" className="App-logo"/>*/}
-						<span id="eva">EVA</span>
-						<span id="lieu"> LIEU</span>
-					</Link>
-					<ul className="right hide-on-med-and-down">
-						<li><Link to="/contact">Contact</Link></li>
-					</ul>
-					<ul className="right hide-on-med-and-down">
-						<li><Link to="/resume">Resume</Link></li>
-					</ul>
-					<ul className="right hide-on-med-and-down">
-						<li><Link to="/portfolio">Portfolio</Link></li>
-					</ul>
-					<ul className="right hide-on-med-and-down">
-						<li><Link to="/about">About</Link></li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+		<nav>
+		<div className="brand-icon">
+			<Link to="/"><img src="./assets/images/ell.png"/></Link>
+		</div>
+		<div className="brand-title">
+			<Link to="/">
+				<span id="eva">EVA </span>
+				<span id="lieu"> LIEU</span>
+			</Link>
+		</div>
+		<div className="menu">
+			<button className="hamburger">&#9776;</button>
+			<button className="cross">&#735;</button>
+		</div>
+	</nav>
 	);
 }

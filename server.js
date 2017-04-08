@@ -20,7 +20,7 @@ var path = require("path");
 // Create Instance of Express
 // -------------------------------------------------
 var app = express();
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 
 //connection to socket.io chat server
 // var http = require('http').Server(app);
