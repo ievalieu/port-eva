@@ -1,0 +1,56 @@
+nav {
+	/*border: 1px solid pink;*/
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.brand-icon, .brand-title, .menu {
+	/*border: 1px solid pink;*/
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.brand-icon, .menu {
+	height: 100px;
+	width: 100px;
+}
+.hamburger {
+	font-size: 2.5em;	
+}
+.cross {
+	height: 100%;
+	font-size: 5em;
+	font-weight: bold;
+	padding-top: 30px;
+}
+.hamburger, .cross {
+	color: white;
+	cursor: pointer;
+	border: none;
+	background: none;
+	text-shadow: 1px 1px 1px #222;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.sidebar-item:hover {
+	color: blue;
+}
+#eva {
+	/*font-size: 2.5em;*/
+	/*font-family: 'Poiret One', cursive;*/
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 2px 2px #222;
+
+}
+#lieu {
+	/*font-size: 2.5em;*/
+	color: pink;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 2px 2px 2px #222;
+
+}

@@ -1,0 +1,21 @@
+/*Footer*/
+#footer {
+	height: 100px;
+	background: none;
+	text-align: right;
+	color: black;
+	text-shadow: 2px 2px #000000;
+}
+
+.parallax-container {
+    height: 70%;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}

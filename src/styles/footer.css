@@ -1,21 +1,24 @@
-/*Footer*/
-#footer {
-	height: 100px;
-	background: none;
-	text-align: right;
-	color: black;
-	text-shadow: 2px 2px #000000;
+footer {
+	/*border: 1px solid red;*/
+/*}
+.article-list__pagination {*/
+	background: rgba(50,50,50,0.7);
+	display: block;
+	bottom: 0;
+	left: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: .5em;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	transform: translateY(0);
+	z-index: 2;
 }
-
-.parallax-container {
-    height: 70%;
+.article-list__pagination--inactive {
+	transform: translateY(100%);
 }
-body {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-}
-
-main {
-	flex: 1 0 auto;
+.article-list__pagination__item {
+	display: inline-block;
+	margin: 0 1em;
 }

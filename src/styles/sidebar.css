@@ -1,0 +1,18 @@
+section {
+	/*border: 1px solid blue;*/
+	background: white;
+}
+.sidebar-item {
+	flex: 1;
+	/*border: 1px solid pink;*/
+	justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Raleway', sans-serif;
+	/*font-size: 30px;*/
+	color: black;
+}
+
+li {
+	justify-content: center;
+}

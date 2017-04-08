@@ -1,0 +1,35 @@
+.project-list {
+/*	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+*/	width: 100%;
+}
+.project {
+	border: 1px solid black;
+	background: grey;
+	height: 300px;
+	width: 300px;
+	margin: 2em 0;
+	float: left;
+}
+.summary {
+	background: pink;
+	width: 100%;
+	height: 250px;
+	display: none;
+} 
+.project-image {
+	background: green;
+	width: 100%;
+	height: 250px;
+}
+.info {
+	background: blue;
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+#research:hover, #tech:hover, #writing:hover {
+	cursor: pointer;
+	color: blue;
+}
