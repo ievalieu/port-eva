@@ -20,7 +20,7 @@ class About extends React.Component {
 							<span id="contact">Contact</span>
 						</p><br/><br/>
 						<div className="about-content">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus earum maiores impedit animi amet magnam laborum repellat, recusandae delectus inventore consequuntur illum suscipit hic voluptatibus minima dignissimos nesciunt pariatur!</p><br/>
+							<p>I’m enamored with the art of storytelling using data, tech, and good ol’ fashioned words. I aim for constant growth and I seek a company interested in creating applications that can spread knowledge in an entertaining and innovative way. Passions include: labor rights, books, tech, travel, and tea.</p><br/>
 							<p>TECH KNOWN</p><br/>
 							<p>INTERESTS</p>
 						</div>

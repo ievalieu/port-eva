@@ -5,6 +5,11 @@ import "../../styles/main.css";
 import "../../styles/module-landing.css";
 import "../../styles/module-newfeed.css";
 import "../../styles/module-connect.css";
+// import Facebook from "../../icons/fb-logo.png";
+import Twitter from "../../icons/twitter-logo.png";
+import LinkedIn from "../../icons/linkedin-logo.png";
+// import Google from "../../icons/google-logo.png";
+import Github from "../../icons/github-logo.png";
 
 class Home extends React.Component {
 	render() {
@@ -36,14 +41,12 @@ class Home extends React.Component {
 				<div className="card module-connect">
 					<div className="card-border-bottom">
 						<h2>CONNECT</h2>
-						<p>Wanna Connect?</p><br/>
+						<p>Wanna Connect?</p>
 						<div className="connect-list">
-							<img className="icon" src="./assets/icons/fb-logo.png"/>
-							<img className="icon" src="./assets/icons/twitter-logo.png"/>
-							<img className="icon" src="./assets/icons/linkedin-logo.png"/>
-							<img className="icon" src="./assets/icons/google-logo.png"/>
-							<img className="icon" src="./assets/icons/github-logo.png"/>
-						</div><br/>
+							<Link to="https://www.twitter.com/itsevalieu/" target="_blank"><img className="icon" src={Twitter}/></Link>
+							<Link to="https://www.linkedin.com/in/eva-lieu/" target="_blank"><img className="icon" src={LinkedIn}/></Link>
+							<Link to="https://github.com/itsevalieu" target="_blank"><img className="icon" src={Github}/></Link>
+						</div>
 						<p>Or if you wanna email me...</p><br/>
 						<Link to="/contact"><button>Contact Me</button></Link>
 					</div>
@@ -54,3 +57,5 @@ class Home extends React.Component {
 	}
 }
 export default Home;
+// <Link to="https://www.linkedin.com/in/eva-lieu/" target="_blank"><img className="icon" src={Facebook}/></Link>
+// <Link to=""><img className="icon" src={Google}/></Link>
