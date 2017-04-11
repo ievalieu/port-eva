@@ -5,10 +5,10 @@ main {
 	flex-direction: column;
 }
 .card {
-	/*border: 1px solid green;*/
+	border: 1px solid grey;
 	flex: 1;
 /*	background: white;
-*/	box-shadow: 3px 3px 3px black;
+*/	box-shadow: 5px 5px 5px black;
 /*	color: black;*/
 	display: flex;
 	flex-direction: column;

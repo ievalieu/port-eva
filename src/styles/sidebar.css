@@ -1,18 +1,24 @@
 section {
-	/*border: 1px solid blue;*/
-	background: white;
+	/*border-bottom: 1px solid red;*/
+	background: rgba(0, 0, 0, 0);
+	/*height: 50px;*/
+
 }
 .sidebar-item {
 	flex: 1;
-	/*border: 1px solid pink;*/
-	justify-content: space-around;
+/*	border: 1px solid grey;
+*/	justify-content: space-around;
 	display: flex;
 	flex-direction: row;
 	font-family: 'Raleway', sans-serif;
 	/*font-size: 30px;*/
-	color: black;
+	color: white;
+	text-shadow: 2px 2px 1px black;
 }
 
 li {
 	justify-content: center;
+	font-size: 24px;
+	font-weight: bold;
+
 }

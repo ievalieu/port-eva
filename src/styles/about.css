@@ -1,13 +1,13 @@
 .about-content {
-	border: 1px solid red;
-/*	display: flex;
+	display: flex;
 	flex-flow: column;
-	justify-content: center;
-*/	text-align: justify;
-	margin: 0 2em;
+	/*border: 1px solid red;*/
+	justify-content: space-between;
+	align-content: space-between;
+	text-align: justify;
+	margin: 0 4em;
 }
 
 .about {
-	margin-bottom: 3em;
 	height: 40em;
 }

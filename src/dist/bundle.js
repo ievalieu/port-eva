@@ -26778,7 +26778,7 @@
 	
 	
 	// module
-	exports.push([module.id, "nav {\n\t/*border: 1px solid pink;*/\n\theight: 100px;\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-between;\n\talign-items: center;\n}\n.brand-icon, .brand-title, .menu {\n\t/*border: 1px solid pink;*/\n\theight: 100%;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n}\n.brand-icon, .menu {\n\theight: 100px;\n\twidth: 100px;\n}\n.brand {\n\theight: 50px;\n\twidth: 100px;\t\n}\n.hamburger {\n\tfont-size: 2.5em;\t\n}\n.cross {\n\theight: 100%;\n\tfont-size: 5em;\n\tfont-weight: bold;\n\tpadding-top: 30px;\n}\n.hamburger, .cross {\n\tcolor: white;\n\tcursor: pointer;\n\tborder: none;\n\tbackground: none;\n\ttext-shadow: 1px 1px 1px #222;\n}\na {\n\tcolor: white;\n\ttext-decoration: none;\n}\n.sidebar-item:hover {\n\tcolor: blue;\n}\n#eva {\n\t/*font-size: 2.5em;*/\n\t/*font-family: 'Poiret One', cursive;*/\n\tfont-family: 'Raleway', sans-serif;\n\ttext-shadow: 2px 2px 2px #222;\n\n}\n#lieu {\n\t/*font-size: 2.5em;*/\n\tcolor: pink;\n\tfont-family: 'Raleway', sans-serif;\n\ttext-shadow: 2px 2px 2px #222;\n\n}", ""]);
+	exports.push([module.id, "nav {\n\t/*border: 1px solid pink;*/\n\theight: 100px;\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-between;\n\talign-items: center;\n\t/*background: rgba(0, 0, 0, .5);*/\n}\n.brand-icon, .brand-title, .menu {\n\t/*border: 1px solid pink;*/\n\theight: 100%;\n\tdisplay: flex;\n\talign-items: center;\n\tjustify-content: center;\n}\n.brand-icon, .menu {\n\theight: 100px;\n\twidth: 100px;\n}\n.brand {\n\theight: 50px;\n\twidth: 100px;\t\n}\n.hamburger {\n\tfont-size: 2.5em;\t\n\tdisplay: none;\n}\n.cross {\n\theight: 100%;\n\tfont-size: 5em;\n\tfont-weight: bold;\n\tpadding-top: 30px;\n\tdisplay: none;\n}\n.hamburger, .cross {\n\tcolor: white;\n\tcursor: pointer;\n\tborder: none;\n\tbackground: none;\n\ttext-shadow: 1px 1px 1px #222;\n}\na {\n\tcolor: white;\n\ttext-decoration: none;\n}\n.sidebar-item:hover {\n\tcolor: blue;\n}\n#eva {\n\t/*font-size: 2.5em;*/\n\t/*font-family: 'Poiret One', cursive;*/\n\tfont-family: 'Raleway', sans-serif;\n\tfont-weight: bold;\n\ttext-shadow: 2px 2px 2px #000;\n\n}\n#lieu {\n\t/*font-size: 2.5em;*/\n\tcolor: pink;\n\tfont-family: 'Raleway', sans-serif;\n\tfont-weight: bold;\n\ttext-shadow: 2px 2px 2px #000;\n\n}", ""]);
 	
 	// exports
 
@@ -29337,7 +29337,7 @@
 	
 	
 	// module
-	exports.push([module.id, "footer {\n\t/*border: 1px solid red;*/\n/*}\n.article-list__pagination {*/\n\tbackground: rgba(50,50,50,0.7);\n\tdisplay: block;\n\tbottom: 0;\n\tleft: 0;\n\tlist-style-type: none;\n\tmargin: 0;\n\tpadding: .5em;\n\tposition: fixed;\n\tright: 0;\n\ttext-align: center;\n\ttransform: translateY(0);\n\tz-index: 2;\n}\n.article-list__pagination--inactive {\n\ttransform: translateY(100%);\n}\n.article-list__pagination__item {\n\tdisplay: inline-block;\n\tmargin: 0 1em;\n}", ""]);
+	exports.push([module.id, "footer {\n\t/*border: 1px solid red;*/\n/*}\n.article-list__pagination {*/\n\tbackground: none;\n\tdisplay: block;\n\tbottom: 0;\n\tleft: 0;\n\tlist-style-type: none;\n\tmargin: 0;\n\tpadding: .5em;\n\tposition: fixed;\n\tright: 0;\n\ttext-align: center;\n\ttransform: translateY(0);\n\tz-index: 2;\n\ttext-shadow: 1px 1px 1px black;\n}\n.article-list__pagination--inactive {\n\ttransform: translateY(100%);\n}\n.article-list__pagination__item {\n\tdisplay: inline-block;\n\tmargin: 0 1em;\n}", ""]);
 	
 	// exports
 
@@ -29447,7 +29447,7 @@
 	
 	
 	// module
-	exports.push([module.id, "section {\n\t/*border: 1px solid blue;*/\n\tbackground: white;\n}\n.sidebar-item {\n\tflex: 1;\n\t/*border: 1px solid pink;*/\n\tjustify-content: space-around;\n\tdisplay: flex;\n\tflex-direction: row;\n\tfont-family: 'Raleway', sans-serif;\n\t/*font-size: 30px;*/\n\tcolor: black;\n}\n\nli {\n\tjustify-content: center;\n}", ""]);
+	exports.push([module.id, "section {\n\t/*border-bottom: 1px solid red;*/\n\tbackground: rgba(0, 0, 0, 0);\n\t/*height: 50px;*/\n\n}\n.sidebar-item {\n\tflex: 1;\n/*\tborder: 1px solid grey;\n*/\tjustify-content: space-around;\n\tdisplay: flex;\n\tflex-direction: row;\n\tfont-family: 'Raleway', sans-serif;\n\t/*font-size: 30px;*/\n\tcolor: white;\n\ttext-shadow: 2px 2px 1px black;\n}\n\nli {\n\tjustify-content: center;\n\tfont-size: 24px;\n\tfont-weight: bold;\n\n}", ""]);
 	
 	// exports
 
@@ -29688,7 +29688,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/*font-family: 'Cabin', sans-serif;\n}\n*/\nhtml {\n\theight: 100%;\n}\nbody {\n\tbackground: url(" + __webpack_require__(256) + ");\n\tbackground-repeat: no-repeat;\n    background-attachment: fixed;\n\tbackground-position: 50% 40%;\n\tbackground-size: 100% 100%;\n\t/*filter: saturate(50%);*/\n\tcolor: white;\n\tmin-height: 100%;\n\tdisplay: flex;\n\tflex-direction: column;\n\tpadding-bottom: 25px;\n}\np {\n\tfont-size: 2em;\n\tcolor: black;\n\tfont-family: \"Playfair Display\", serif;\n}\nbutton {\n\twidth: 150px;\n\theight: 65px;\n\tmargin: 10px;\n\tfont-size: 18px;\n\tborder-radius: 5px;\n\tbackground: #2255BB;\n\tcolor: white;\n\tcursor: pointer;\n}\nh2 {\n\tfont-size: 7em;\n\tfont-family: \"Josefin Sans\", sans-serif;\n\tcolor: black;\n\tfont-weight: bolder;\n}\n.icon {\t\n\twidth: 75px;\n\theight: 75px;\n}\n\n/*Laptops/Desktop*/\n@media screen and (min-width: 1240px){\n\tbody {\n\t\t/*background: red;*/\n\t}\n\th2 {\n\t\tfont-size: 7em;\n\t\ttext-align: center;\n\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 100px;\n\t}\t\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: 10px solid pink;\n\t}\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100%;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 30px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 3.5em;\n\t}\n}\n/*iPads*/\n@media screen and (min-width: 945px) and (max-width: 1240px){\n\tbody {\n\t\t/*background: orange;*/\n\t}\n\th2 {\n\t\tfont-size: 5em;\n\t\ttext-align: center;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 100px;\n\t}\t\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: 10px solid pink;\n\t}\n\tp {\n\t\tfont-size: 2em;\n\t}\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100%;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 30px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 3em;\n\t}\n}\n/*Filler*/\n@media screen and (min-width: 760px) and (max-width: 945px){\n\tbody {\n\t\t/*background: yellow;*/\n\t}\n\th2 {\n\t\tfont-size: 5em;\n\t\ttext-align: center;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 100px;\n\t}\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: 10px solid pink;\n\t}\t\n\tp {\n\t\tfont-size: 1.5em;\n\t}\t\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100%;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 30px;\n\t}\n\t.icon {\n\t\twidth: 75px;\n\t\theight: 75px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 2.5em;\n\t}\n}\n/*Smart Phones*/\n@media only screen and (max-width: 760px) {\n\tbody {\n\t\t/*background: green;*/\n\t}\n\th2 {\n\t\tfont-size: 4em;\n\t\ttext-align: center;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 20px;\n\t\tmargin: 10px 0;\n\t}\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100% 100%;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 0px;\n\t}\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: none;\n\t}\n\tp {\n\t\tfont-size: 1em;\n\t}\n\t.icon {\n\t\twidth: 50px;\n\t\theight: 50px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 2.5em;\n\t}\n}", ""]);
+	exports.push([module.id, "/*font-family: 'Cabin', sans-serif;\n}\n*/\nhtml {\n\theight: 100%;\n}\nbody {\n\tbackground: url(" + __webpack_require__(256) + ");\n\tbackground-repeat: no-repeat;\n    background-attachment: fixed;\n\tbackground-position: 50% 40%;\n\tbackground-size: 100% 120%;\n\t/*filter: saturate(50%);*/\n\tcolor: white;\n\tmin-height: 100%;\n\tdisplay: flex;\n\tflex-direction: column;\n\tpadding-bottom: 40px;\n}\np {\n\tfont-size: 2em;\n\tcolor: black;\n\tfont-family: \"Playfair Display\", serif;\n}\nbutton {\n\twidth: 150px;\n\theight: 65px;\n\tmargin: 10px;\n\tfont-size: 18px;\n\tborder-radius: 5px;\n\tbackground: #2255BB;\n\tcolor: white;\n\tcursor: pointer;\n}\nh2 {\n\tfont-size: 7em;\n\tfont-family: \"Josefin Sans\", sans-serif;\n\tcolor: black;\n\tfont-weight: bolder;\n}\n.icon {\t\n\twidth: 75px;\n\theight: 75px;\n}\n\n/*Laptops/Desktop*/\n@media screen and (min-width: 1240px){\n\tbody {\n\t\t/*background: red;*/\n\t}\n\th2 {\n\t\tfont-size: 7em;\n\t\ttext-align: center;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 100px;\n\t}\t\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: 10px solid pink;\n\t}\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100%;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 30px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 3.5em;\n\t}\n\t.about-content p {\n\t\tline-height: 50px;\n\t}\n}\n/*iPads*/\n@media screen and (min-width: 945px) and (max-width: 1240px){\n\tbody {\n\t\t/*background: orange;*/\n\t}\n\th2 {\n\t\tfont-size: 5em;\n\t\ttext-align: center;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 100px;\n\t}\t\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: 10px solid pink;\n\t}\n\tp {\n\t\tfont-size: 2em;\n\t}\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100%;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 30px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 3em;\n\t}\n\t.brand {\n\t\theight: 50px;\n\t\twidth: 100px;\t\n\t}\n\t.about-content p {\n\t\tline-height: 40px;\n\t}\n}\n/*Filler*/\n@media screen and (min-width: 760px) and (max-width: 945px){\n\tbody {\n\t\t/*background: yellow;*/\n\t}\n\th2 {\n\t\tfont-size: 5em;\n\t\ttext-align: center;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 100px;\n\t}\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: 10px solid pink;\n\t}\t\n\tp {\n\t\tfont-size: 1.5em;\n\t}\t\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100%;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 30px;\n\t}\n\t.icon {\n\t\twidth: 75px;\n\t\theight: 75px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 2.5em;\n\t}\n\t.brand {\n\t\theight: 40px;\n\t\twidth: 80px;\t\n\t}\n\t.about-content p {\n\t\tline-height: 30px;\n\t}\n}\n/*Smart Phones*/\n@media only screen and (max-width: 760px) {\n\tbody {\n\t\t/*background: green;*/\n\t}\n\th2 {\n\t\tfont-size: 4em;\n\t\ttext-align: center;\n\t}\n\t.sidebar {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tpadding: 20px 50px;\n\t}\n\t.sidebar-item {\n\t\tfont-size: 20px;\n\t\tmargin: 10px 0;\n\t}\n\t.module-landing {\n\t\tbackground: url(" + __webpack_require__(257) + ");\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: 50% 70%;\n\t\tbackground-size: 100% 100%;\n\t}\n\t.card, .portfolio {\n\t\tmargin: 0px 0px;\n\t}\n\t.card-border-top, .card-border-middle, .card-border-bottom {\n\t\tborder: none;\n\t}\n\tp {\n\t\tfont-size: 1em;\n\t}\n\t.icon {\n\t\twidth: 50px;\n\t\theight: 50px;\n\t}\n\t#eva, #lieu {\n\t\tfont-size: 2.5em;\n\t}\n\t.brand {\n\t\theight: 40px;\n\t\twidth: 80px;\t\n\t}\n\tli {\n\t\tfont-size: 18px;\n\t}\n\t.about-content p {\n\t\tline-height: 24px;\n\t}\n}", ""]);
 	
 	// exports
 
@@ -29740,7 +29740,7 @@
 	
 	
 	// module
-	exports.push([module.id, "main {\n\t/*border: 1px solid green;*/\n\tflex: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n.card {\n\t/*border: 1px solid green;*/\n\tflex: 1;\n/*\tbackground: white;\n*/\tbox-shadow: 3px 3px 3px black;\n/*\tcolor: black;*/\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 40em;\n}", ""]);
+	exports.push([module.id, "main {\n\t/*border: 1px solid green;*/\n\tflex: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n.card {\n\tborder: 1px solid grey;\n\tflex: 1;\n/*\tbackground: white;\n*/\tbox-shadow: 5px 5px 5px black;\n/*\tcolor: black;*/\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 40em;\n}", ""]);
 	
 	// exports
 
@@ -29780,7 +29780,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/*.module-landing {\n\tbackground: #704C5E;\n\tbackground: url(../images/van.gif);\n\tbackground-repeat: no-repeat;\n\tbackground-position: 50% 70%;\n\tbackground-size: 100%\n}*/\n#para {\n\tmargin: 0 2em;\n\ttext-align: center;\n\tline-height: 50px;\n}\n.card-border-top {\n\tborder-bottom: none;\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n.landing-image {\n\theight: 200px;\n\twidth: 200px;\n}", ""]);
+	exports.push([module.id, "/*.module-landing {\n\tbackground: #704C5E;\n\tbackground: url(../images/van.gif);\n\tbackground-repeat: no-repeat;\n\tbackground-position: 50% 70%;\n\tbackground-size: 100%\n\tborder: 1px solid grey;\n}*/\n#para {\n\tmargin: 0 2em;\n\ttext-align: center;\n\tline-height: 50px;\n}\n.card-border-top {\n\tborder-bottom: none;\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n.landing-image {\n\theight: 200px;\n\twidth: 200px;\n}", ""]);
 	
 	// exports
 
@@ -29820,7 +29820,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".module-newsfeed {\n\tbackground: #456990;\n}\n.card-border-middle {\n\tborder: 10px solid pink;\n\tborder-bottom: none;\n\tborder-top: none;\t\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n.sample-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n}\n.sample {\n\tborder: 1px solid black;\n\tbackground: grey;\n\theight: 150px;\n\twidth: 200px;\n}\n", ""]);
+	exports.push([module.id, ".module-newsfeed {\n\tbackground: #456990;\n\tborder: 1px solid grey;\n}\n.card-border-middle {\n\tborder: 10px solid pink;\n\tborder-bottom: none;\n\tborder-top: none;\t\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n.sample-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n}\n.sample {\n\tborder: 1px solid black;\n\tbackground: grey;\n\theight: 150px;\n\twidth: 200px;\n}\n", ""]);
 	
 	// exports
 
@@ -29860,7 +29860,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".module-connect {\n\tbackground: #E0E1DD;\n\t/*background: url(../images/portal.gif);\n\tbackground-repeat: no-repeat;\n\tbackground-position: 50% 70%;\n\tbackground-size: 100%;*/\n}\n.card-border-bottom {\n\tborder: 10px solid pink;\n\tborder-top: none;\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n.connect-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n\tmargin: 10px 0;\n}", ""]);
+	exports.push([module.id, ".module-connect {\n\tbackground: #E0E1DD;\n\t/*background: url(../images/portal.gif);\n\tbackground-repeat: no-repeat;\n\tbackground-position: 50% 70%;\n\tbackground-size: 100%;*/\n\tborder: 1px solid grey;\n\n}\n.card-border-bottom {\n\tborder: 10px solid pink;\n\tborder-top: none;\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n.connect-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n\tmargin: 10px 0;\n}", ""]);
 	
 	// exports
 
@@ -29890,7 +29890,7 @@
 	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
-		value: true
+	  value: true
 	});
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -29920,85 +29920,164 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	var About = function (_React$Component) {
-		_inherits(About, _React$Component);
+	  _inherits(About, _React$Component);
 	
-		function About() {
-			_classCallCheck(this, About);
+	  function About() {
+	    _classCallCheck(this, About);
 	
-			return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
-		}
+	    return _possibleConstructorReturn(this, (About.__proto__ || Object.getPrototypeOf(About)).apply(this, arguments));
+	  }
 	
-		_createClass(About, [{
-			key: "render",
-			value: function render() {
-				return _react2.default.createElement(
-					"main",
-					null,
-					_react2.default.createElement(
-						"div",
-						{ className: "portfolio about" },
-						_react2.default.createElement(
-							"div",
-							null,
-							_react2.default.createElement("br", null),
-							_react2.default.createElement("br", null),
-							_react2.default.createElement("br", null),
-							_react2.default.createElement(
-								"h2",
-								null,
-								"ABOUT ME"
-							),
-							_react2.default.createElement(
-								"p",
-								null,
-								_react2.default.createElement(
-									"span",
-									{ id: "resume" },
-									"Resume"
-								),
-								" |",
-								_react2.default.createElement(
-									"span",
-									{ id: "portfolio" },
-									"Portfolio"
-								),
-								" |",
-								_react2.default.createElement(
-									"span",
-									{ id: "contact" },
-									"Contact"
-								)
-							),
-							_react2.default.createElement("br", null),
-							_react2.default.createElement("br", null),
-							_react2.default.createElement(
-								"div",
-								{ className: "about-content" },
-								_react2.default.createElement(
-									"p",
-									null,
-									"I\u2019m enamored with the art of storytelling using data, tech, and good ol\u2019 fashioned words. I aim for constant growth and I seek a company interested in creating applications that can spread knowledge in an entertaining and innovative way. Passions include: labor rights, books, tech, travel, and tea."
-								),
-								_react2.default.createElement("br", null),
-								_react2.default.createElement(
-									"p",
-									null,
-									"TECH KNOWN"
-								),
-								_react2.default.createElement("br", null),
-								_react2.default.createElement(
-									"p",
-									null,
-									"INTERESTS"
-								)
-							)
-						)
-					)
-				);
-			}
-		}]);
+	  _createClass(About, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "main",
+	        null,
+	        _react2.default.createElement(
+	          "div",
+	          { className: "portfolio about" },
+	          _react2.default.createElement(
+	            "div",
+	            null,
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement(
+	              "h2",
+	              null,
+	              "ABOUT ME"
+	            ),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "about-content" },
+	              _react2.default.createElement(
+	                "p",
+	                null,
+	                "I\u2019m enamored with the art of storytelling using data, tech, and good ol\u2019 fashioned words. I aim for constant growth and I seek a company interested in creating applications that can spread knowledge in an entertaining and innovative way. Passions include: labor rights, books, tech, travel, and tea."
+	              ),
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement("br", null),
+	              _react2.default.createElement(
+	                "div",
+	                { className: "project-techstack" },
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "HTML"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "CSS"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Bootstrap"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Materialize"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "JavaScript"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "jQuery"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Node.js"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Express.js"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "APIs"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Firebase"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "MongoDB"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Mongoose"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "MySQL"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Sequelize"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "React.js"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Webpack"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Passport"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Heroku"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Github"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Trello"
+	                ),
+	                _react2.default.createElement(
+	                  "span",
+	                  { className: "tech-item" },
+	                  "Jira"
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
 	
-		return About;
+	  return About;
 	}(_react2.default.Component);
 	
 	exports.default = About;
@@ -30078,7 +30157,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".contact-form {\n\tdisplay: flex;\n\tflex-flow: column;\n/*\tborder: 1px solid red;\n*/\tmargin: 1em 0 3em 0;\n\n}\ninput {\n\theight: 3em;\n}\ntextarea {\n\theight: 15em;\n}\n#contact-form {\n\tmargin: 1em 0;\n}\n\n@media screen and (min-width: 1240px){\n\t.contact-form {\n\t\twidth: 40em;\n\t}\n}\n/*iPads*/\n@media screen and (min-width: 945px) and (max-width: 1240px){\n\t.contact-form {\n\t\twidth: 30em;\n\t}\t\n}\n/*Filler*/\n@media screen and (min-width: 760px) and (max-width: 945px){\n\t.contact-form {\n\t\twidth: 25em;\n\t}\n}\n/*Smart Phones*/\n@media only screen and (max-width: 760px) {\n\t.contact-form {\n\t\twidth: 20em;\n\t}\t\n}", ""]);
+	exports.push([module.id, ".contact-form {\n\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n\talign-content: center;\n\t/*align-items: center;*/\n/*\tborder: 1px solid red;\n*/\tmargin: 1em 0 3em 0;\n\n}\ninput {\n\theight: 3em;\n}\ntextarea {\n\theight: 15em;\n}\n#contact-form {\n\tmargin: 1em 0;\n}\n\n@media screen and (min-width: 1240px){\n\t.contact-form {\n\t\twidth: 40em;\n\t}\n}\n/*iPads*/\n@media screen and (min-width: 945px) and (max-width: 1240px){\n\t.contact-form {\n\t\twidth: 30em;\n\t}\t\n}\n/*Filler*/\n@media screen and (min-width: 760px) and (max-width: 945px){\n\t.contact-form {\n\t\twidth: 25em;\n\t}\n}\n/*Smart Phones*/\n@media only screen and (max-width: 760px) {\n\t.contact-form {\n\t\twidth: 20em;\n\t}\t\n\n\t#contact-form button {\n\t\twidth: 50px;\n\t\theight: 25px;\n\t}\n}", ""]);
 	
 	// exports
 
@@ -30118,7 +30197,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".about-content {\n\tborder: 1px solid red;\n/*\tdisplay: flex;\n\tflex-flow: column;\n\tjustify-content: center;\n*/\ttext-align: justify;\n\tmargin: 0 2em;\n}\n\n.about {\n\tmargin-bottom: 3em;\n\theight: 40em;\n}", ""]);
+	exports.push([module.id, ".about-content {\n\tdisplay: flex;\n\tflex-flow: column;\n\t/*border: 1px solid red;*/\n\tjustify-content: space-between;\n\talign-content: space-between;\n\ttext-align: justify;\n\tmargin: 0 4em;\n}\n\n.about {\n\theight: 40em;\n}", ""]);
 	
 	// exports
 
@@ -30187,30 +30266,7 @@
 	                            "h2",
 	                            null,
 	                            "PORTFOLIO"
-	                        ),
-	                        _react2.default.createElement(
-	                            "p",
-	                            null,
-	                            _react2.default.createElement(
-	                                "span",
-	                                { id: "research" },
-	                                "Research"
-	                            ),
-	                            " |",
-	                            _react2.default.createElement(
-	                                "span",
-	                                { id: "tech" },
-	                                "Tech"
-	                            ),
-	                            " |",
-	                            _react2.default.createElement(
-	                                "span",
-	                                { id: "writing" },
-	                                "Writing"
-	                            )
-	                        ),
-	                        _react2.default.createElement("br", null),
-	                        _react2.default.createElement("br", null)
+	                        )
 	                    ),
 	                    _react2.default.createElement(
 	                        "div",

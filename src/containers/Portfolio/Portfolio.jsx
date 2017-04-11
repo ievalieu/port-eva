@@ -15,11 +15,7 @@ class Portfolio extends React.Component {
                     <div>
                         <br/><br/><br/>
                         <h2>PORTFOLIO</h2>
-                        <p>
-                            <span id="research">Research</span> | 
-                            <span id="tech">Tech</span> | 
-                            <span id="writing">Writing</span>
-                        </p><br/><br/>
+                    
                     </div>
                     <div className="project-list article-list" id="article-list">
                         <div className="project">

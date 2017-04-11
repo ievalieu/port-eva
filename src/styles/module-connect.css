@@ -4,6 +4,8 @@
 	background-repeat: no-repeat;
 	background-position: 50% 70%;
 	background-size: 100%;*/
+	border: 1px solid grey;
+
 }
 .card-border-bottom {
 	border: 10px solid pink;
