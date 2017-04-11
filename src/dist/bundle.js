@@ -30220,30 +30220,78 @@
 	                            { className: "project" },
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "summary target" },
+	                                { className: "project-header" },
 	                                _react2.default.createElement(
-	                                    "p",
-	                                    null,
-	                                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	                                    "h3",
+	                                    { className: "project-title" },
+	                                    "Codespiration"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "project-image target" },
-	                                _react2.default.createElement("img", { src: "#" })
+	                                { className: "project-body target" },
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "project-summary" },
+	                                    "Code project idea  generator for newbie web  developers looking  to practice code and find a community."
+	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "info" },
+	                                { className: "project-techstack" },
 	                                _react2.default.createElement(
-	                                    "h3",
-	                                    null,
-	                                    "PROJECT"
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "JavaScript"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "CSS"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Node"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Express"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "React"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Mongoose"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Webpack"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Passport"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "project-links" },
+	                                _react2.default.createElement(
+	                                    _reactRouter.Link,
+	                                    { to: "https://codespiration.herokuapp.com/", target: "_blank" },
+	                                    "DEMO"
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
-	                                    { to: "#" },
-	                                    "LINK"
+	                                    { to: "https://github.com/itsevalieu/project3-react", target: "_blank" },
+	                                    "GITHUB"
 	                                )
 	                            )
 	                        ),
@@ -30252,30 +30300,78 @@
 	                            { className: "project" },
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "summary target" },
+	                                { className: "project-header" },
 	                                _react2.default.createElement(
-	                                    "p",
-	                                    null,
-	                                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	                                    "h3",
+	                                    { className: "project-title" },
+	                                    "Codespiration"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "project-image target" },
-	                                _react2.default.createElement("img", { src: "#" })
+	                                { className: "project-body target" },
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "project-summary" },
+	                                    "Code project idea  generator for newbie web  developers looking  to practice code and find a community."
+	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "info" },
+	                                { className: "project-techstack" },
 	                                _react2.default.createElement(
-	                                    "h3",
-	                                    null,
-	                                    "PROJECT"
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "JavaScript"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "CSS"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Node"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Express"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "React"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Mongoose"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Webpack"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Passport"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "project-links" },
+	                                _react2.default.createElement(
+	                                    _reactRouter.Link,
+	                                    { to: "https://codespiration.herokuapp.com/", target: "_blank" },
+	                                    "DEMO"
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
-	                                    { to: "#" },
-	                                    "LINK"
+	                                    { to: "https://github.com/itsevalieu/project3-react", target: "_blank" },
+	                                    "GITHUB"
 	                                )
 	                            )
 	                        ),
@@ -30284,30 +30380,78 @@
 	                            { className: "project" },
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "summary target" },
+	                                { className: "project-header" },
 	                                _react2.default.createElement(
-	                                    "p",
-	                                    null,
-	                                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	                                    "h3",
+	                                    { className: "project-title" },
+	                                    "Codespiration"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "project-image target" },
-	                                _react2.default.createElement("img", { src: "#" })
+	                                { className: "project-body target" },
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "project-summary" },
+	                                    "Code project idea  generator for newbie web  developers looking  to practice code and find a community."
+	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "info" },
+	                                { className: "project-techstack" },
 	                                _react2.default.createElement(
-	                                    "h3",
-	                                    null,
-	                                    "PROJECT"
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "JavaScript"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "CSS"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Node"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Express"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "React"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Mongoose"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Webpack"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Passport"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "project-links" },
+	                                _react2.default.createElement(
+	                                    _reactRouter.Link,
+	                                    { to: "https://codespiration.herokuapp.com/", target: "_blank" },
+	                                    "DEMO"
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
-	                                    { to: "#" },
-	                                    "LINK"
+	                                    { to: "https://github.com/itsevalieu/project3-react", target: "_blank" },
+	                                    "GITHUB"
 	                                )
 	                            )
 	                        ),
@@ -30316,30 +30460,78 @@
 	                            { className: "project" },
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "summary target" },
+	                                { className: "project-header" },
 	                                _react2.default.createElement(
-	                                    "p",
-	                                    null,
-	                                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	                                    "h3",
+	                                    { className: "project-title" },
+	                                    "Codespiration"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "project-image target" },
-	                                _react2.default.createElement("img", { src: "#" })
+	                                { className: "project-body target" },
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "project-summary" },
+	                                    "Code project idea  generator for newbie web  developers looking  to practice code and find a community."
+	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "info" },
+	                                { className: "project-techstack" },
 	                                _react2.default.createElement(
-	                                    "h3",
-	                                    null,
-	                                    "PROJECT"
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "JavaScript"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "CSS"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Node"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Express"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "React"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Mongoose"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Webpack"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Passport"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "project-links" },
+	                                _react2.default.createElement(
+	                                    _reactRouter.Link,
+	                                    { to: "https://codespiration.herokuapp.com/", target: "_blank" },
+	                                    "DEMO"
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
-	                                    { to: "#" },
-	                                    "LINK"
+	                                    { to: "https://github.com/itsevalieu/project3-react", target: "_blank" },
+	                                    "GITHUB"
 	                                )
 	                            )
 	                        ),
@@ -30348,30 +30540,78 @@
 	                            { className: "project" },
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "summary target" },
+	                                { className: "project-header" },
 	                                _react2.default.createElement(
-	                                    "p",
-	                                    null,
-	                                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	                                    "h3",
+	                                    { className: "project-title" },
+	                                    "Codespiration"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "project-image target" },
-	                                _react2.default.createElement("img", { src: "#" })
+	                                { className: "project-body target" },
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "project-summary" },
+	                                    "Code project idea  generator for newbie web  developers looking  to practice code and find a community."
+	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "info" },
+	                                { className: "project-techstack" },
 	                                _react2.default.createElement(
-	                                    "h3",
-	                                    null,
-	                                    "PROJECT"
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "JavaScript"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "CSS"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Node"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Express"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "React"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Mongoose"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Webpack"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Passport"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "project-links" },
+	                                _react2.default.createElement(
+	                                    _reactRouter.Link,
+	                                    { to: "https://codespiration.herokuapp.com/", target: "_blank" },
+	                                    "DEMO"
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
-	                                    { to: "#" },
-	                                    "LINK"
+	                                    { to: "https://github.com/itsevalieu/project3-react", target: "_blank" },
+	                                    "GITHUB"
 	                                )
 	                            )
 	                        ),
@@ -30380,30 +30620,78 @@
 	                            { className: "project" },
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "summary target" },
+	                                { className: "project-header" },
 	                                _react2.default.createElement(
-	                                    "p",
-	                                    null,
-	                                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+	                                    "h3",
+	                                    { className: "project-title" },
+	                                    "Codespiration"
 	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "project-image target" },
-	                                _react2.default.createElement("img", { src: "#" })
+	                                { className: "project-body target" },
+	                                _react2.default.createElement(
+	                                    "p",
+	                                    { className: "project-summary" },
+	                                    "Code project idea  generator for newbie web  developers looking  to practice code and find a community."
+	                                )
 	                            ),
 	                            _react2.default.createElement(
 	                                "div",
-	                                { className: "info" },
+	                                { className: "project-techstack" },
 	                                _react2.default.createElement(
-	                                    "h3",
-	                                    null,
-	                                    "PROJECT"
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "JavaScript"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "CSS"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Node"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Express"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "React"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Mongoose"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Webpack"
+	                                ),
+	                                _react2.default.createElement(
+	                                    "span",
+	                                    { className: "tech-item" },
+	                                    "Passport"
+	                                )
+	                            ),
+	                            _react2.default.createElement(
+	                                "div",
+	                                { className: "project-links" },
+	                                _react2.default.createElement(
+	                                    _reactRouter.Link,
+	                                    { to: "https://codespiration.herokuapp.com/", target: "_blank" },
+	                                    "DEMO"
 	                                ),
 	                                _react2.default.createElement(
 	                                    _reactRouter.Link,
-	                                    { to: "#" },
-	                                    "LINK"
+	                                    { to: "https://github.com/itsevalieu/project3-react", target: "_blank" },
+	                                    "GITHUB"
 	                                )
 	                            )
 	                        )
@@ -30453,7 +30741,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".project-list {\n/*\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n*/\twidth: 100%;\n}\n.project {\n\tborder: 1px solid black;\n\tbackground: grey;\n\theight: 300px;\n\twidth: 300px;\n\tmargin: 2em 0;\n\tfloat: left;\n}\n.summary {\n\tbackground: pink;\n\twidth: 100%;\n\theight: 250px;\n\tdisplay: none;\n} \n.project-image {\n\tbackground: green;\n\twidth: 100%;\n\theight: 250px;\n}\n.info {\n\tbackground: blue;\n\twidth: 100%;\n\theight: 50px;\n\tfloat: left;\n}\n#research:hover, #tech:hover, #writing:hover {\n\tcursor: pointer;\n\tcolor: blue;\n}", ""]);
+	exports.push([module.id, ".project-list {\n/*\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n*/\twidth: 100%;\n}\n.project {\n\tborder: 1px solid #444;\n\tborder-radius: 5px;\n\tbackground: #28536B;\n\theight: 300px;\n\twidth: 300px;\n\tmargin: 2em 0;\n\tdisplay: flex;\n\tflex-flow: column;\n\talign-items: center;\n}\n\n.project-header {\n\t/*border: 1px solid red;*/\n\tpadding: 10px 0;\n\tdisplay: flex;\n\tflex-flow: column;\n\talign-items: center;\n}\n.project-title {\n\t/*border: 1px solid pink;*/\n\tfont-weight: bold;\n\tcolor: white;\n\ttext-shadow: 1px 1px 1px black;\n\tfont-size: 28px;\n\tfont-family: \"Josefin Sans\";\n}\n.project-body {\n\tbackground: #fff;\n\t/*height: 200px;*/\n\tpadding: 5px 10px;\n\ttext-align: justify;\n\tflex: 1;\n}\n.project-summary {\n\tfont-size: 20px;\n\tfont-family: \"Raleway\";\n\tline-height: 24px;\n\t/*word-spacing: 5px;*/\n} \n/*.project-image {\n\tbackground: green;\n\theight: 250px;\n}*/\n.project-techstack {\n\t/*border: 1px solid black;*/\n\twidth: 100%;\n\tdisplay: flex;\n\tflex-flow: row wrap;\n\t/*justify-content: space-between;*/\n\t/*align-items: center;*/\n\talign-content: center;\n\tbackground: white;\n}\n.tech-item {\n\tborder: 1px solid pink;\n\tbox-shadow: 1px 1px 1px black;\n\tfont-family: \"Josefin\", sans-serif;\n\tfont-size: 12px;\n\theight: 16px;\n\tborder-radius: 10px;\n\tbackground: pink;\n\tcolor: black;\n\tpadding: 3px 3px;\n\tmargin: 3px 3px;\n\tmin-width: 42px;\n\tdisplay: flex;\n\tjustify-content: space-around;\n\talign-content: center;\n\talign-items: center;\n}\n.project-links {\n\t/*border: 1px solid pink;*/\n\tbackground: #28536B;\n\twidth: 100%;\n\theight: 30px;\n\tdisplay: flex;\n\tjustify-content: space-between;\n\talign-items: center;\n\tmargin: 0 10px;\n}\n\n.project-links a {\n\t/*border: 1px solid red;*/\n\tfont-family: \"Josefin\", sans-serif;\n\tcolor: #fff;\n\ttext-shadow: 1px 1px 1px black;\n\tpadding: 0 5px;\n}\n.project-links a:hover {\n\tcolor: orange;\n}\n\n\n\n\n#research:hover, #tech:hover, #writing:hover {\n\tcursor: pointer;\n\tcolor: blue;\n}", ""]);
 	
 	// exports
 
