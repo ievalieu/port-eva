@@ -8,13 +8,13 @@ var bodyParser = require("body-parser");
 //var cookieParser = require("cookie-parser");
 //var flash = require("connect-flash");
 //var LocalStrategy = require("passport-local").Strategy;
-//var mongoose = require("mongoose");
+var mongoose = require("mongoose");
 // var morgan = require("morgan");
 //var passport = require("passport");
 var path = require("path");
 
 //var session = require("express-session");
-//var controllers = require ('./server/controllers');
+// var controllers = require ('./server/controllers');
 
 
 // Create Instance of Express
@@ -26,12 +26,12 @@ var PORT = process.env.PORT || 3000;
 // var http = require('http').Server(app);
 // var io = require('socket.io')(http);
 
-// // Set Up Express App to Handle Data Parsing
-// // -------------------------------------------------
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: true }));
-// app.use(bodyParser.text());
-// app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+// Set Up Express App to Handle Data Parsing
+// -------------------------------------------------
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 // app.use(cookieParser());
 
 // Static Directory
@@ -40,18 +40,18 @@ app.use(express.static(path.join(__dirname, "src")));
 
 // MongoDB Configuration
 // -------------------------------------------------
-// mongoose.Promise = global.Promise;
-// var mongoURL = process.env.MONGODB_URI || "mongodb://localhost/codespiration";
-// mongoose.connect(mongoURL);
-// var db = mongoose.connection;
+mongoose.Promise = global.Promise;
+var mongoURL = process.env.MONGODB_URI || "mongodb://localhost/port-eva";
+mongoose.connect(mongoURL);
+var db = mongoose.connection;
 
-// db.on("error", function(err) {
-//   console.log("Mongoose Error: ", err);
-// });
+db.on("error", function(err) {
+  console.log("Mongoose Error: ", err);
+});
 
-// db.once("open", function() {
-//   console.log("Mongoose connection successful.");
-// });
+db.once("open", function() {
+  console.log("Mongoose connection successful.");
+});
 
 // // Express Session
 // app.use(session({
@@ -102,7 +102,7 @@ app.use(express.static(path.join(__dirname, "src")));
 // var users = require('./server/controllers/user.js');
 // var routes = require('./server/controllers/index.js');
 // var ideaRoutes = require("./server/controllers/idea-api-routes.js");
-// var projectRoutes = require("./server/controllers/project-api-routes.js");
+var projectRoutes = require("./server/controllers/project-api-routes.js");
 // var techRoutes = require("./server/controllers/tech-api-routes.js");
 // var userRoutes = require("./server/controllers/user-api-routes.js");
 
@@ -121,7 +121,7 @@ app.use(express.static(path.join(__dirname, "src")));
 
 // //app.use("/user/:id/", dashboardRoutes);
 // app.use("/idea", ideaRoutes);
-// app.use("/project", projectRoutes);
+app.use("/project", projectRoutes);
 // app.use("/tech", techRoutes);
 // app.use("/user", userRoutes);
 
