@@ -20,7 +20,6 @@ class About extends React.Component {
 							<br/>
 							<br/><br/>
 							<div className="project-techstack">
-
                                 <span className="tech-item">HTML</span>
                                 <span className="tech-item">CSS</span>
                                 <span className="tech-item">Bootstrap</span>

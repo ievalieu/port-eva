@@ -29740,7 +29740,7 @@
 	
 	
 	// module
-	exports.push([module.id, "main {\n\t/*border: 1px solid green;*/\n\tflex: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n.card {\n\tborder: 1px solid grey;\n\tflex: 1;\n/*\tbackground: white;\n*/\tbox-shadow: 5px 5px 5px black;\n/*\tcolor: black;*/\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 40em;\n}", ""]);
+	exports.push([module.id, "main {\n\t/*border: 1px solid green;*/\n\tflex: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n}\n.card {\n\t/*border: 1px solid grey;*/\n\tflex: 1;\n/*\tbackground: white;\n*/\tbox-shadow: 5px 5px 5px black;\n/*\tcolor: black;*/\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 40em;\n}", ""]);
 	
 	// exports
 
@@ -29820,7 +29820,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".module-newsfeed {\n\tbackground: #456990;\n\tborder: 1px solid grey;\n}\n.card-border-middle {\n\tborder: 10px solid pink;\n\tborder-bottom: none;\n\tborder-top: none;\t\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n.sample-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n}\n.sample {\n\tborder: 1px solid black;\n\tbackground: grey;\n\theight: 150px;\n\twidth: 200px;\n}\n", ""]);
+	exports.push([module.id, ".module-newsfeed {\n\tbackground: #456990;\n\t/*border: 1px solid grey;*/\n}\n.card-border-middle {\n\tborder: 10px solid pink;\n\tborder-bottom: none;\n\tborder-top: none;\t\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n.sample-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n}\n.sample {\n\tborder: 1px solid black;\n\tbackground: grey;\n\theight: 150px;\n\twidth: 200px;\n}\n", ""]);
 	
 	// exports
 
@@ -29860,7 +29860,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".module-connect {\n\tbackground: #E0E1DD;\n\t/*background: url(../images/portal.gif);\n\tbackground-repeat: no-repeat;\n\tbackground-position: 50% 70%;\n\tbackground-size: 100%;*/\n\tborder: 1px solid grey;\n\n}\n.card-border-bottom {\n\tborder: 10px solid pink;\n\tborder-top: none;\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n.connect-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n\tmargin: 10px 0;\n}", ""]);
+	exports.push([module.id, ".module-connect {\n\tbackground: #E0E1DD;\n\t/*background: url(../images/portal.gif);\n\tbackground-repeat: no-repeat;\n\tbackground-position: 50% 70%;\n\tbackground-size: 100%;*/\n\t/*border: 1px solid grey;*/\n\n}\n.card-border-bottom {\n\tborder: 10px solid pink;\n\tborder-top: none;\n\theight: 75%;\n\twidth: 85%;\n\tz-index: 1;\n\tdisplay: flex;\n\tflex-direction: column;\n\tjustify-content: center;\n\talign-items: center;\n}\n\n.connect-list {\n\tdisplay: flex;\n\tflex-direction: row;\n\tjustify-content: space-around;\n\twidth: 100%;\n\tmargin: 10px 0;\n}", ""]);
 	
 	// exports
 
