@@ -12,6 +12,8 @@ var mongoose = require("mongoose");
 // var morgan = require("morgan");
 //var passport = require("passport");
 var path = require("path");
+var sg = require('sendgrid')(secret.values.api_key)
+
 
 //var session = require("express-session");
 // var controllers = require ('./server/controllers');
