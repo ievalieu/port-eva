@@ -79,7 +79,7 @@ class Portfolio extends React.Component {
                                 <span className="tech-item">Webpack</span>
                             </div>
                             <div className="project-links">
-                                <Link to="#" target="_blank">DEMO</Link>
+                                <Link to="https://nytreact-scraper.herokuapp.com/" target="_blank">DEMO</Link>
                                 <Link to="https://github.com/itsevalieu/nytreact" target="_blank">GITHUB</Link>
                             </div>
                         </div>

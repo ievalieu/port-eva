@@ -77,10 +77,10 @@ class Contact extends React.Component {
 	render() {
 		return (
 			<main>
-                <div className="portfolio" id="contact-content">
+                <div className="portfolio contact-bkgd" id="contact-content">
                     <div>
                         <br/><br/><br/>
-                        <h2>CONTACT</h2>
+                        <h2 className="contact-title">CONTACT</h2>
                         <p>Email: itsevalieu@gmail.com</p>
                         <p>
                             Wanna contact me? Shoot me an email directly!

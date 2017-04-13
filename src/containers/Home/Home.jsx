@@ -29,9 +29,9 @@ class Home extends React.Component {
 						<h2>NEWSFEED</h2>
 						<p>Check out some of my recent work below:</p><br/>
 						<div className="sample-list">
-							<div className="sample"></div>
-							<div className="sample"></div>
-							<div className="sample"></div>
+							<Link to="/portfolio"><div className="sample1"></div></Link>
+							<Link to="/portfolio"><div className="sample2"></div></Link>
+							<Link to="/portfolio"><div className="sample3"></div></Link>
 						</div><br/>
 						<p>Or check them all out here~</p><br/>
 						<Link to="/portfolio"><button>Learn More</button></Link>
