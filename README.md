@@ -1,6 +1,6 @@
 # Personal Portfolio of Eva Lieu
 
-Technologies to use:
+Platforms/ Technology:
 * HTML, CSS, Materialize, ReactJS, Mongoose, Node.js, Express, JS
 
 ## Features in Development:
