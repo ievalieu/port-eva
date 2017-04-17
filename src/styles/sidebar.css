@@ -23,28 +23,44 @@ li {
 
 }
 /*@media screen and (min-width: 1240px){
-	.contact-form {
-		width: 40em;
+	.sidebar {
+		display: flex;
+		flex-direction: row;
+		padding: 20px 50px;
+	}
+	.sidebar-item {
+		font-size: 30px;
 	}
 }
 
 @media screen and (min-width: 945px) and (max-width: 1240px){
-	.contact-form {
-		width: 30em;
+	.sidebar {
+		display: flex;
+		flex-direction: row;
+		padding: 20px 50px;
+	}
+	.sidebar-item {
+		font-size: 30px;
 	}	
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
-	.contact-form {
-		width: 25em;
+	.sidebar {
+		display: flex;
+		flex-direction: row;
+		padding: 20px 50px;
+	}
+	.sidebar-item {
+		font-size: 30px;
 	}
 }
 @media only screen and (max-width: 760px) {
-	.contact-form {
-		width: 20em;
-	}	
-
-	#contact-form button {
-		width: 50px;
-		height: 25px;
+	.sidebar {
+		display: flex;
+		flex-direction: column;
+		padding: 20px 50px;
+	}
+	.sidebar-item {
+		font-size: 20px;
+		margin: 10px 0;
 	}
 }*/

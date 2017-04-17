@@ -26,28 +26,35 @@
 	width: 200px;
 }
 /*@media screen and (min-width: 1240px){
-	.contact-form {
-		width: 40em;
+	.module-landing {
+		background: url(../images/van.gif);
+		background-repeat: no-repeat;
+		background-position: 50% 70%;
+		background-size: 100%;
 	}
 }
 
 @media screen and (min-width: 945px) and (max-width: 1240px){
-	.contact-form {
-		width: 30em;
-	}	
+	.module-landing {
+		background: url(../images/van.gif);
+		background-repeat: no-repeat;
+		background-position: 50% 70%;
+		background-size: 100%;
+	}
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
-	.contact-form {
-		width: 25em;
+	.module-landing {
+		background: url(../images/van.gif);
+		background-repeat: no-repeat;
+		background-position: 50% 70%;
+		background-size: 100%;
 	}
 }
 @media only screen and (max-width: 760px) {
-	.contact-form {
-		width: 20em;
-	}	
-
-	#contact-form button {
-		width: 50px;
-		height: 25px;
+	.module-landing {
+		background: url(../images/van.gif);
+		background-repeat: no-repeat;
+		background-position: 50% 70%;
+		background-size: 100% 100%;
 	}
 }*/

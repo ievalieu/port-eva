@@ -58,26 +58,10 @@ h2 {
 	.card-border-top, .card-border-middle, .card-border-bottom {
 		border: 10px solid pink;
 	}
-	.module-landing {
-		background: url(../images/van.gif);
-		background-repeat: no-repeat;
-		background-position: 50% 70%;
-		background-size: 100%;
-	}
-	.sidebar {
-		display: flex;
-		flex-direction: row;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
-	}
-	#eva, #lieu {
-		font-size: 3.5em;
-	}
-	.about-content p {
-		line-height: 50px;
-	}
+	
+	
+	
+	
 }
 /*iPads*/
 @media screen and (min-width: 945px) and (max-width: 1240px){
@@ -97,30 +81,11 @@ h2 {
 	p {
 		font-size: 2em;
 	}
-	.module-landing {
-		background: url(../images/van.gif);
-		background-repeat: no-repeat;
-		background-position: 50% 70%;
-		background-size: 100%;
-	}
-	.sidebar {
-		display: flex;
-		flex-direction: row;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
-	}
-	#eva, #lieu {
-		font-size: 3em;
-	}
-	.brand {
-		height: 50px;
-		width: 100px;	
-	}
-	.about-content p {
-		line-height: 40px;
-	}
+	
+	
+	
+	
+	
 }
 /*Filler*/
 @media screen and (min-width: 760px) and (max-width: 945px){
@@ -140,34 +105,15 @@ h2 {
 	p {
 		font-size: 1.5em;
 	}	
-	.module-landing {
-		background: url(../images/van.gif);
-		background-repeat: no-repeat;
-		background-position: 50% 70%;
-		background-size: 100%;
-	}
-	.sidebar {
-		display: flex;
-		flex-direction: row;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 30px;
-	}
+	
+	
 	.icon {
 		width: 75px;
 		height: 75px;
 	}
-	#eva, #lieu {
-		font-size: 2.5em;
-	}
-	.brand {
-		height: 40px;
-		width: 80px;	
-	}
-	.about-content p {
-		line-height: 30px;
-	}
+	
+	
+	
 }
 /*Smart Phones*/
 @media only screen and (max-width: 760px) {
@@ -178,21 +124,8 @@ h2 {
 		font-size: 4em;
 		text-align: center;
 	}
-	.sidebar {
-		display: flex;
-		flex-direction: column;
-		padding: 20px 50px;
-	}
-	.sidebar-item {
-		font-size: 20px;
-		margin: 10px 0;
-	}
-	.module-landing {
-		background: url(../images/van.gif);
-		background-repeat: no-repeat;
-		background-position: 50% 70%;
-		background-size: 100% 100%;
-	}
+	
+	
 	.card, .portfolio {
 		margin: 0px 0px;
 	}
@@ -206,17 +139,10 @@ h2 {
 		width: 50px;
 		height: 50px;
 	}
-	#eva, #lieu {
-		font-size: 2.5em;
-	}
-	.brand {
-		height: 40px;
-		width: 80px;	
-	}
+	
+	
 	li {
 		font-size: 18px;
 	}
-	.about-content p {
-		line-height: 24px;
-	}
+	
 }
