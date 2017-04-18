@@ -52,15 +52,6 @@ h2 {
 		font-size: 7em;
 		text-align: center;
 	}
-	.card, .portfolio {
-		margin: 0px 100px;
-	}	
-	.card-border-top, .card-border-middle, .card-border-bottom {
-		border: 10px solid pink;
-	}
-	
-	
-	
 	
 }
 /*iPads*/
@@ -72,18 +63,9 @@ h2 {
 		font-size: 5em;
 		text-align: center;
 	}
-	.card, .portfolio {
-		margin: 0px 100px;
-	}	
-	.card-border-top, .card-border-middle, .card-border-bottom {
-		border: 10px solid pink;
-	}
 	p {
 		font-size: 2em;
 	}
-	
-	
-	
 	
 	
 }
@@ -96,23 +78,13 @@ h2 {
 		font-size: 5em;
 		text-align: center;
 	}
-	.card, .portfolio {
-		margin: 0px 100px;
-	}
-	.card-border-top, .card-border-middle, .card-border-bottom {
-		border: 10px solid pink;
-	}	
 	p {
 		font-size: 1.5em;
 	}	
-	
-	
 	.icon {
 		width: 75px;
 		height: 75px;
 	}
-	
-	
 	
 }
 /*Smart Phones*/
@@ -124,14 +96,6 @@ h2 {
 		font-size: 4em;
 		text-align: center;
 	}
-	
-	
-	.card, .portfolio {
-		margin: 0px 0px;
-	}
-	.card-border-top, .card-border-middle, .card-border-bottom {
-		border: none;
-	}
 	p {
 		font-size: 1em;
 	}
@@ -139,8 +103,6 @@ h2 {
 		width: 50px;
 		height: 50px;
 	}
-	
-	
 	li {
 		font-size: 18px;
 	}

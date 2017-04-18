@@ -63,7 +63,7 @@ a {
 	text-shadow: 2px 2px 2px #000;
 
 }
-/*@media screen and (min-width: 1240px){
+@media screen and (min-width: 1240px){
 	#eva, #lieu {
 		font-size: 3.5em;
 	}
@@ -95,4 +95,4 @@ a {
 		height: 40px;
 		width: 80px;	
 	}
-}*/
+}

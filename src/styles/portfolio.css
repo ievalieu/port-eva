@@ -40,29 +40,24 @@
 }
 
 
-/*@media screen and (min-width: 1240px){
-	.contact-form {
-		width: 40em;
+@media screen and (min-width: 1240px){
+	.portfolio {
+		margin: 0px 100px;
 	}
 }
 
 @media screen and (min-width: 945px) and (max-width: 1240px){
-	.contact-form {
-		width: 30em;
-	}	
+	.portfolio {
+		margin: 0px 100px;
+	}		
 }
 @media screen and (min-width: 760px) and (max-width: 945px){
-	.contact-form {
-		width: 25em;
+	.portfolio {
+		margin: 0px 100px;
 	}
 }
 @media only screen and (max-width: 760px) {
-	.contact-form {
-		width: 20em;
-	}	
-
-	#contact-form button {
-		width: 50px;
-		height: 25px;
+	.portfolio {
+		margin: 0px 0px;
 	}
-}*/
+}
