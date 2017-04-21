@@ -1,23 +1,34 @@
+main {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.about {
+	align-items: center;
+	background: #fff;
+	box-shadow: 5px 5px 5px #000;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: 40em;
+	justify-content: center;
+	margin: 0px 100px;
+}
 .about-content {
 	display: flex;
 	flex-flow: column;
-	/*border: 1px solid red;*/
 	justify-content: space-between;
 	align-content: space-between;
 	text-align: justify;
 	margin: 0 4em;
 }
 
-.about {
-	height: 40em;
-
-}
+/*==========Media Queries==========*/
 @media screen and (min-width: 1240px){
 	.about-content p {
 		line-height: 50px;
 	}
 }
-
 @media screen and (min-width: 945px) and (max-width: 1240px){
 	.about-content p {
 		line-height: 40px;
@@ -29,6 +40,9 @@
 	}
 }
 @media only screen and (max-width: 760px) {
+	.about {
+		margin: 0px 100px;
+	}
 	.about-content p {
 		line-height: 24px;
 	}

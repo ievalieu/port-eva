@@ -11,7 +11,6 @@ export default () => {
 	return (
 		<Route path="/" component={App}>
 			<IndexRoute component={Home} />
-
 			<Route path="/about" component={About} />
 			<Route path="/portfolio" component={Portfolio} />
 			<Route path="/contact" component={Contact} />

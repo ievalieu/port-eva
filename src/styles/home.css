@@ -1,0 +1,32 @@
+main {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.card {
+	align-items: center;
+	box-shadow: 5px 5px 5px #000;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: 40em;
+	margin: 0px 100px;
+	justify-content: center;
+}
+
+/*==========Media Queries==========*/
+@media screen and (min-width: 760px) and (max-width: 945px){
+	.icon {
+		height: 75px;
+		width: 75px;
+	}
+}
+@media only screen and (max-width: 760px) {
+	.card {
+		margin: 0px 0px;
+	}
+	.icon {
+		height: 50px;
+		width: 50px;
+	}
+}

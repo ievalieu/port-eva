@@ -1,11 +1,5 @@
 import React from "react";
 import axios from "axios";
-
-
-import "../../styles/index.css";
-import "../../styles/main.css";
-import "../../styles/portfolio.css";
-import "../../styles/module-newfeed.css";
 import "../../styles/contact.css";
 
 class Contact extends React.Component {
@@ -77,7 +71,7 @@ class Contact extends React.Component {
 	render() {
 		return (
 			<main>
-                <div className="portfolio contact-bkgd" id="contact-content">
+                <div className="contact" id="contact-content">
                     <div>
                         <br/><br/><br/>
                         <h2 className="contact-title">CONTACT</h2>

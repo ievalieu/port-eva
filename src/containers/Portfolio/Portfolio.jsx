@@ -1,13 +1,15 @@
 import React from "react";
 import {Link} from "react-router";
-
-import "../../styles/index.css";
-import "../../styles/main.css";
 import "../../styles/portfolio.css";
-import "../../styles/module-newfeed.css";
 import "../../styles/project.css";
 
 class Portfolio extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            
+        };
+    }
 	render() {
 		return (
 			<main>
@@ -15,9 +17,8 @@ class Portfolio extends React.Component {
                     <div>
                         <br/><br/><br/>
                         <h2>PORTFOLIO</h2>
-                    
                     </div>
-                    <div className="project-list article-list" id="article-list">
+                    <div className="project-list article-list">
                         <div className="project">
                             <div className="project-header">
                                 <h3 className="project-title">Codespiration</h3>

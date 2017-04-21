@@ -1,38 +1,47 @@
-.contact-form {
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	align-content: center;
-	/*align-items: center;*/
-/*	border: 1px solid red;
-*/	margin: 1em 0 3em 0;
-
-}
 input {
 	height: 3em;
+}
+main {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
 }
 textarea {
 	height: 15em;
 }
-#contact-form {
-	margin: 1em 0;
-}
-.contact-bkgd {
+.contact {
+	align-items: center;
 	background: url("../images/portal.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 105% 100%;
+	box-shadow: 5px 5px 5px #000;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin: 0px 100px;
+	text-align: center;
 }
-
-.contact-bkgd p {
-	color: white;
-	text-shadow: 1px 2px 1px black;
+.contact p {
+	color: #fff;
+	text-shadow: 1px 2px 1px #000;
+}
+.contact-form {
+	align-content: center;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	margin: 1em 0 3em 0;
 }
 .contact-title {
-	color: white;
-	text-shadow: 1px 2px 1px black;	
+	color: #fff;
+	text-shadow: 1px 2px 1px #000;	
+}
+#contact-form {
+	margin: 1em 0;
 }
 
+/*==========Media Queries==========*/
 @media screen and (min-width: 1240px){
 	.contact-form {
 		width: 40em;
@@ -52,10 +61,12 @@ textarea {
 }
 /*Smart Phones*/
 @media only screen and (max-width: 760px) {
+	.contact {
+		margin: 0px 0px;
+	}
 	.contact-form {
 		width: 20em;
 	}	
-
 	#contact-form button {
 		width: 50px;
 		height: 25px;

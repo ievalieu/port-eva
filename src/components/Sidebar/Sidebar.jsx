@@ -7,7 +7,7 @@ export default () => {
 		fontFamily: "Lato"
 	};
 	return (
-		<section id="myDiv">
+		<section>
 			<ul className="sidebar">
 				<Link to="/about" className="sidebar-item"><li>ABOUT</li></Link>
 				<Link to="/portfolio" className="sidebar-item"><li>PORTFOLIO</li></Link>
