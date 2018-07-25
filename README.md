@@ -1,4 +1,4 @@
-# Personal Portfolio of Eva Lieu
+# Sample Portfolio with MERN
 
 Platforms/ Technology:
 * HTML, CSS, Materialize, ReactJS, Mongoose, Node.js, Express, JS
